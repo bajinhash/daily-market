@@ -1,0 +1,10 @@
+.DS_Store
+*.swp
+*.pyc
+__pycache__/
+node_modules/
+.vscode/
+.idea/
+# 本地配置（包含数据源路径等敏感信息，禁止提交）
+.env
+.env.local

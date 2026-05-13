@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日行情</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f8f8fa;
+      --surface: #ffffff;
+      --border: #e4e4ec;
+      --border-strong: #cdcdd8;
+      --accent: #3b6eda;
+      --accent-soft: #3b6eda0a;
+      --accent-badge: #eef2fb;
+      --text: #1c1c28;
+      --text-2: #52526b;
+      --text-3: #9494ab;
+      --green: #3d8c5c;
+      --red: #c93434;
+      --warn: #d29a2f;
+      --highlight: #fff7d6;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'IBM Plex Sans', -apple-system, sans-serif;
+      min-height: 100vh;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .page {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 3.5rem 2rem 4rem;
+    }
+
+    header {
+      margin-bottom: 2.5rem;
+    }
+
+    .header-top {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-bottom: 0.4rem;
+    }
+
+    h1 {
+      font-family: 'Fraunces', serif;
+      font-weight: 700;
+      font-size: 2.2rem;
+      letter-spacing: -0.02em;
+    }
+
+    .subtitle {
+      color: var(--text-2);
+      font-size: 0.95rem;
+      margin-bottom: 1.6rem;
+    }
+
+    .controls {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 0.8rem;
+      margin-bottom: 1.4rem;
+    }
+
+    .controls select,
+    .controls button {
+      font-family: inherit;
+      font-size: 0.92rem;
+      padding: 0.5rem 0.95rem;
+      border: 1px solid var(--border-strong);
+      border-radius: 6px;
+      background: var(--surface);
+      color: var(--text);
+      cursor: pointer;
+      transition: border-color 0.15s ease;
+    }
+    .controls select:hover,
+    .controls button:hover {
+      border-color: var(--accent);
+    }
+    .controls .meta {
+      color: var(--text-3);
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.85rem;
+    }
+    .controls .errors {
+      color: var(--red);
+      font-size: 0.85rem;
+      margin-left: auto;
+    }
+
+    .tabs {
+      display: flex;
+      gap: 0;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 2rem;
+    }
+    .tabs button {
+      font-family: inherit;
+      font-size: 0.95rem;
+      font-weight: 500;
+      padding: 0.7rem 1.4rem;
+      background: transparent;
+      border: none;
+      border-bottom: 2px solid transparent;
+      color: var(--text-2);
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+    .tabs button:hover {
+      color: var(--text);
+    }
+    .tabs button.active {
+      color: var(--accent);
+      border-bottom-color: var(--accent);
+      font-weight: 600;
+    }
+
+    /* 信号速览卡 */
+    .summary {
+      background: var(--accent-soft);
+      border: 1px solid var(--accent);
+      border-radius: 10px;
+      padding: 1rem 1.3rem;
+      margin-bottom: 1.8rem;
+      font-size: 0.9rem;
+      line-height: 1.7;
+    }
+    .summary strong { color: var(--accent); font-weight: 600; }
+    .summary code {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.85em;
+      color: var(--text);
+    }
+
+    section.panel {
+      margin-bottom: 2.2rem;
+    }
+    section.panel h2 {
+      font-family: 'Fraunces', serif;
+      font-weight: 500;
+      font-size: 1.25rem;
+      margin-bottom: 0.6rem;
+      color: var(--text);
+      letter-spacing: -0.01em;
+    }
+    section.panel .desc {
+      color: var(--text-3);
+      font-size: 0.85rem;
+      margin-bottom: 0.7rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      overflow: hidden;
+      font-size: 0.88rem;
+    }
+    thead {
+      background: #fafafc;
+      border-bottom: 1px solid var(--border);
+    }
+    th {
+      text-align: left;
+      padding: 0.6rem 0.85rem;
+      font-weight: 600;
+      font-size: 0.78rem;
+      color: var(--text-2);
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+    th.num { text-align: right; }
+    td {
+      padding: 0.55rem 0.85rem;
+      border-bottom: 1px solid var(--border);
+      color: var(--text);
+      vertical-align: middle;
+    }
+    td.num {
+      text-align: right;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.84rem;
+    }
+    td.base {
+      font-weight: 600;
+    }
+    td.exchange {
+      color: var(--text-2);
+      font-size: 0.82rem;
+    }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #fafafc; }
+
+    .up { color: var(--green); font-weight: 500; }
+    .down { color: var(--red); font-weight: 500; }
+    .flag {
+      display: inline-block;
+      padding: 0 0.45rem;
+      font-size: 0.72rem;
+      font-family: 'IBM Plex Mono', monospace;
+      border-radius: 4px;
+      background: #fbe6e6;
+      color: var(--red);
+      margin-right: 0.25rem;
+    }
+    .badge {
+      display: inline-block;
+      padding: 0.05rem 0.45rem;
+      font-size: 0.75rem;
+      border-radius: 4px;
+      background: var(--accent-badge);
+      color: var(--accent);
+      font-weight: 500;
+      margin-left: 0.3rem;
+    }
+    .resonance-row td { background: #fffae8; }
+    .resonance-row:hover td { background: #fff5d0; }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+    }
+    @media (max-width: 800px) {
+      .grid-2 { grid-template-columns: 1fr; }
+      .page { padding: 2rem 1rem; }
+      h1 { font-size: 1.6rem; }
+      table { font-size: 0.78rem; }
+      th, td { padding: 0.4rem 0.5rem; }
+    }
+
+    .loader {
+      text-align: center;
+      color: var(--text-3);
+      padding: 3rem 0;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.85rem;
+    }
+
+    footer {
+      margin-top: 4rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      color: var(--text-3);
+      font-size: 0.82rem;
+      text-align: center;
+    }
+    footer a { color: var(--accent); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <div class="header-top">
+        <h1>每日行情</h1>
+        <span class="subtitle">crypto · 链上 · 美股 · 每日早盘 09:00</span>
+      </div>
+
+      <div class="controls">
+        <select id="date-picker"></select>
+        <span class="meta" id="meta">--</span>
+        <span class="errors" id="errors"></span>
+      </div>
+
+      <nav class="tabs">
+        <button data-tab="radar" class="active">潜伏榜</button>
+        <button data-tab="gainers">涨跌榜</button>
+        <button data-tab="onchain">链上榜</button>
+        <button data-tab="us">美股榜</button>
+      </nav>
+    </header>
+
+    <main id="content">
+      <div class="loader">加载中…</div>
+    </main>
+
+    <footer>
+      数据：BN / OKX / Bybit / HTX + GMGN + DEXScreener + Yahoo Finance ·
+      代码：<a href="https://github.com/bajinhash/daily-market" target="_blank">bajinhash/daily-market</a>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
