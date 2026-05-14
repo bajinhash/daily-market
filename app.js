@@ -1,17 +1,26 @@
 // 每日行情前端
 // 数据：data/index.json（manifest）+ data/{date}-{slot}.json + data/{date}-{slot}-onchain.json
 // 每日早盘 09:00 由本地 _fetch.py + _fetch_dex.py 生成后 publish.sh 推送
+// slot 不再硬编码：从 manifest.by_date[date].slots 动态选择
 
-const SLOT = '早盘'; // 默认时段（1×/天 SOP）
+const SLOT_PRIORITY = ['早盘', '晚盘', '午盘', '凌晨'];
 
 const state = {
   date: null,
-  slot: SLOT,
+  slot: null,
   data: null,
   onchain: null,
   manifest: null,
   activeTab: 'radar',
 };
+
+function pickSlot(date) {
+  const slots = state.manifest?.by_date?.[date]?.slots || [];
+  for (const s of SLOT_PRIORITY) {
+    if (slots.includes(s)) return s;
+  }
+  return slots[0] || '早盘';
+}
 
 // ===== 工具函数 =====
 
@@ -502,6 +511,7 @@ function updateMeta() {
 
 async function loadDate(date) {
   state.date = date;
+  state.slot = pickSlot(date);
   $('#content').innerHTML = '<div class="loader">加载中…</div>';
   try {
     const main = await fetchJSON(`data/${date}-${state.slot}.json`);
