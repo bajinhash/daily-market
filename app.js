@@ -398,6 +398,26 @@ function renderOnchainTable(title, desc, rows) {
   return panel(title, desc, tbl(headers, trows));
 }
 
+function renderAster(rows) {
+  if (!rows || !rows.length) return '';
+  const headers = [
+    { label: '#' }, { label: '上市(BJT)' }, { label: '币' },
+    { label: 'symbol' }, { label: '标签' },
+  ];
+  const trows = rows.map((r, i) => ({
+    cells: [
+      `<td>${i + 1}</td>`,
+      `<td class="exchange">${esc(r.onboard_bjt || '-')}</td>`,
+      `<td class="base">${esc(r.base || '')}</td>`,
+      `<td class="exchange">${esc(r.symbol || '')}</td>`,
+      `<td>${esc((r.tags || []).join(' / ') || '—')}</td>`,
+    ],
+  }));
+  return panel('🪐 Aster 上新（按上线时间）',
+    `${rows.length} 个 · fapi.asterdex.com · CZ 系 perp DEX · 上了=注意力破圈信号（留意幸存者偏差）`,
+    tbl(headers, trows));
+}
+
 function renderOnchain(root) {
   const o = state.onchain;
   if (!o) {
@@ -415,6 +435,8 @@ function renderOnchain(root) {
     renderOnchainTable('BSC 24h Top', 'GMGN trending', o.by_chain?.bsc),
     renderOnchainTable('Base 24h Top', 'GMGN trending', o.by_chain?.base),
     renderOnchainTable('Ethereum 24h Top', 'DEXScreener', o.by_chain?.eth),
+    renderOnchainTable('Robinhood 24h Top', 'DEXScreener chainId=robinhood · 按成交额（滤假池）', o.by_chain?.robinhood),
+    renderAster(o.aster),
     renderOnchainTable(
       '🐋 聪明钱共识',
       `${counts.smart_consensus ?? 0} 个 / smart≥30 + holders≥1000 + 不深跌`,
