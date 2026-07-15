@@ -1,0 +1,1693 @@
+{
+  "schema_version": "1.0-backfill",
+  "date": "2026-07-12",
+  "slot": "晚盘",
+  "backfill": true,
+  "timestamp": "2026-07-15T20:54:14.130237+08:00",
+  "radar": {
+    "summary": "5/24 回填版（基于历史 kline + OI + 费率）。412 个 symbol × 215 个 base。",
+    "cross_exchange": [
+      {
+        "base": "EVAA",
+        "detail": "BN-fut:-39.4%, Bybit-fut:-39.2%",
+        "avg_chg": -39.299393552505585,
+        "total_vol": 922889551.75082
+      },
+      {
+        "base": "LAB",
+        "detail": "BN-fut:-28.6%, Bybit-fut:-28.6%, HTX-fut:-38.7%",
+        "avg_chg": -31.951398447375272,
+        "total_vol": 466351127.56199
+      },
+      {
+        "base": "DEXE",
+        "detail": "BN-spot:+25.3%, BN-fut:+25.4%",
+        "avg_chg": 25.358755118368514,
+        "total_vol": 300717535.11412
+      },
+      {
+        "base": "BILL",
+        "detail": "BN-fut:+21.0%, Bybit-spot:+20.8%, Bybit-fut:+20.9%",
+        "avg_chg": 20.925900100522544,
+        "total_vol": 91008772.091523
+      },
+      {
+        "base": "SXT",
+        "detail": "BN-spot:-15.7%, BN-fut:-13.8%",
+        "avg_chg": -14.724901294575615,
+        "total_vol": 211921135.534866
+      }
+    ],
+    "oi_top30": [
+      {
+        "symbol": "1000PEPEUSDT",
+        "exchange": "Bybit",
+        "oi_usd": 12658290600.0,
+        "chg_d": 2.1425932766900586,
+        "funding_d": 0.004405
+      },
+      {
+        "symbol": "PUMPFUNUSDT",
+        "exchange": "Bybit",
+        "oi_usd": 11165019600.0,
+        "chg_d": 5.174028968797299,
+        "funding_d": -0.012880999999999998
+      },
+      {
+        "symbol": "BTCUSDT",
+        "exchange": "BN",
+        "oi_usd": 6478093488.7602,
+        "chg_d": -0.05173792389821739,
+        "funding_d": 0.015122
+      },
+      {
+        "symbol": "AKEUSDT",
+        "exchange": "Bybit",
+        "oi_usd": 5275354900.0,
+        "chg_d": -5.296714075527215,
+        "funding_d": 0.066025
+      },
+      {
+        "symbol": "ETHUSDT",
+        "exchange": "BN",
+        "oi_usd": 4151753009.4504538,
+        "chg_d": 1.0757261991380773,
+        "funding_d": 0.007937999999999999
+      },
+      {
+        "symbol": "B3USDT",
+        "exchange": "Bybit",
+        "oi_usd": 1679320200.0,
+        "chg_d": -5.259231629988816,
+        "funding_d": -5.705012
+      },
+      {
+        "symbol": "DOGEUSDT",
+        "exchange": "Bybit",
+        "oi_usd": 1175987174.0,
+        "chg_d": -0.6833401667350013,
+        "funding_d": 0.00516
+      },
+      {
+        "symbol": "SOLUSDT",
+        "exchange": "BN",
+        "oi_usd": 685940878.4346,
+        "chg_d": 0.15637216575450164,
+        "funding_d": 0.006427
+      },
+      {
+        "symbol": "ENAUSDT",
+        "exchange": "Bybit",
+        "oi_usd": 431158916.0,
+        "chg_d": -0.08756567425569253,
+        "funding_d": 0.006024000000000001
+      },
+      {
+        "symbol": "XRPUSDT",
+        "exchange": "BN",
+        "oi_usd": 356808439.23108,
+        "chg_d": -0.994253397792587,
+        "funding_d": 0.006879999999999999
+      },
+      {
+        "symbol": "ADAUSDT",
+        "exchange": "Bybit",
+        "oi_usd": 346404428.0,
+        "chg_d": -2.293301146650572,
+        "funding_d": -0.019736000000000004
+      },
+      {
+        "symbol": "HYPEUSDT",
+        "exchange": "BN",
+        "oi_usd": 345894040.403583,
+        "chg_d": 0.8450450990380763,
+        "funding_d": 0.021325
+      },
+      {
+        "symbol": "BNBUSDT",
+        "exchange": "BN",
+        "oi_usd": 331922477.854,
+        "chg_d": -0.13393400706197175,
+        "funding_d": 0.016104999999999998
+      },
+      {
+        "symbol": "SKHYNIXUSDT",
+        "exchange": "BN",
+        "oi_usd": 317029594.4381279,
+        "chg_d": -3.056229746037337,
+        "funding_d": -0.002293
+      },
+      {
+        "symbol": "ZECUSDT",
+        "exchange": "BN",
+        "oi_usd": 281558282.0451,
+        "chg_d": 4.835221016202606,
+        "funding_d": 0.027687000000000003
+      },
+      {
+        "symbol": "SPCXUSDT",
+        "exchange": "BN",
+        "oi_usd": 235429548.79314384,
+        "chg_d": -0.02744613695623745,
+        "funding_d": 0.0
+      },
+      {
+        "symbol": "ARBUSDT",
+        "exchange": "Bybit",
+        "oi_usd": 230036169.8,
+        "chg_d": -1.854779218041941,
+        "funding_d": null
+      },
+      {
+        "symbol": "CLUSDT",
+        "exchange": "BN",
+        "oi_usd": 215805142.18205377,
+        "chg_d": 0.35451322607034486,
+        "funding_d": 0.104352
+      },
+      {
+        "symbol": "XAUUSDT",
+        "exchange": "BN",
+        "oi_usd": 213781460.5633,
+        "chg_d": -0.6262022475189015,
+        "funding_d": 0.0
+      },
+      {
+        "symbol": "XRPUSDT",
+        "exchange": "Bybit",
+        "oi_usd": 188567689.6,
+        "chg_d": -0.9943440977923856,
+        "funding_d": -0.008432
+      },
+      {
+        "symbol": "DOGEUSDT",
+        "exchange": "BN",
+        "oi_usd": 177169798.34085,
+        "chg_d": -0.6424275560415502,
+        "funding_d": 0.013955
+      },
+      {
+        "symbol": "XAGUSDT",
+        "exchange": "BN",
+        "oi_usd": 167589432.56404,
+        "chg_d": -1.371008192609932,
+        "funding_d": 0.0
+      },
+      {
+        "symbol": "MUUSDT",
+        "exchange": "BN",
+        "oi_usd": 163048051.4292,
+        "chg_d": -1.103820445207575,
+        "funding_d": -0.023278
+      },
+      {
+        "symbol": "XLMUSDT",
+        "exchange": "Bybit",
+        "oi_usd": 150292830.0,
+        "chg_d": 0.005368551028082891,
+        "funding_d": 0.0020269999999999993
+      },
+      {
+        "symbol": "FARTCOINUSDT",
+        "exchange": "Bybit",
+        "oi_usd": 138736951.0,
+        "chg_d": -0.8763060330300123,
+        "funding_d": 0.030000000000000002
+      },
+      {
+        "symbol": "SNDKUSDT",
+        "exchange": "BN",
+        "oi_usd": 134532862.901512,
+        "chg_d": -0.7898756048770654,
+        "funding_d": 0.0
+      },
+      {
+        "symbol": "WLDUSDT",
+        "exchange": "Bybit",
+        "oi_usd": 123415458.1,
+        "chg_d": 5.365239294710324,
+        "funding_d": 0.021205
+      },
+      {
+        "symbol": "DEXEUSDT",
+        "exchange": "BN",
+        "oi_usd": 115187902.75525343,
+        "chg_d": 25.398901386345806,
+        "funding_d": 0.030000000000000002
+      },
+      {
+        "symbol": "PAXGUSDT",
+        "exchange": "BN",
+        "oi_usd": 83625290.7457,
+        "chg_d": -0.5129781270810057,
+        "funding_d": 0.015118999999999999
+      },
+      {
+        "symbol": "ADAUSDT",
+        "exchange": "BN",
+        "oi_usd": 80612873.66779536,
+        "chg_d": -2.3536511768255806,
+        "funding_d": -0.027580999999999998
+      }
+    ],
+    "funding_pos_top20": [
+      {
+        "symbol": "EVAAUSDT",
+        "exchange": "Bybit",
+        "funding_d": 0.32030699999999995,
+        "chg_d": -39.23289711671454
+      },
+      {
+        "symbol": "LABUSDT",
+        "exchange": "Bybit",
+        "funding_d": 0.282565,
+        "chg_d": -28.596491228070175
+      },
+      {
+        "symbol": "LABUSDT",
+        "exchange": "BN",
+        "funding_d": 0.27164600000000005,
+        "chg_d": -28.553856967141105
+      },
+      {
+        "symbol": "EVAAUSDT",
+        "exchange": "BN",
+        "funding_d": 0.223106,
+        "chg_d": -39.36588998829663
+      },
+      {
+        "symbol": "USUSDT",
+        "exchange": "BN",
+        "funding_d": 0.13913599999999998,
+        "chg_d": 6.708040522040701
+      },
+      {
+        "symbol": "CLUSDT",
+        "exchange": "BN",
+        "funding_d": 0.104352,
+        "chg_d": 0.35451322607034486
+      },
+      {
+        "symbol": "BZUSDT",
+        "exchange": "BN",
+        "funding_d": 0.09996999999999999,
+        "chg_d": 0.7977354606279009
+      },
+      {
+        "symbol": "BSBUSDT",
+        "exchange": "BN",
+        "funding_d": 0.096147,
+        "chg_d": -8.278348411672685
+      },
+      {
+        "symbol": "CLUSDT",
+        "exchange": "Bybit",
+        "funding_d": 0.080543,
+        "chg_d": 0.23122959738846807
+      },
+      {
+        "symbol": "SKHYNIXUSDT",
+        "exchange": "Bybit",
+        "funding_d": 0.07077699999999999,
+        "chg_d": -3.1982262963766592
+      },
+      {
+        "symbol": "AKEUSDT",
+        "exchange": "Bybit",
+        "funding_d": 0.066025,
+        "chg_d": -5.296714075527215
+      },
+      {
+        "symbol": "AKEUSDT",
+        "exchange": "BN",
+        "funding_d": 0.048290000000000007,
+        "chg_d": -5.211406096361855
+      },
+      {
+        "symbol": "MAGMAUSDT",
+        "exchange": "BN",
+        "funding_d": 0.044482,
+        "chg_d": -17.885473791608216
+      },
+      {
+        "symbol": "BILLUSDT",
+        "exchange": "BN",
+        "funding_d": 0.030000000000000002,
+        "chg_d": 21.039785208689292
+      },
+      {
+        "symbol": "KAITOUSDT",
+        "exchange": "BN",
+        "funding_d": 0.030000000000000002,
+        "chg_d": 1.3657056145675277
+      },
+      {
+        "symbol": "DEXEUSDT",
+        "exchange": "BN",
+        "funding_d": 0.030000000000000002,
+        "chg_d": 25.398901386345806
+      },
+      {
+        "symbol": "ZBTUSDT",
+        "exchange": "BN",
+        "funding_d": 0.030000000000000002,
+        "chg_d": -4.101546349127588
+      },
+      {
+        "symbol": "1000XECUSDT",
+        "exchange": "BN",
+        "funding_d": 0.030000000000000002,
+        "chg_d": -1.925695390001948
+      },
+      {
+        "symbol": "LITUSDT",
+        "exchange": "BN",
+        "funding_d": 0.030000000000000002,
+        "chg_d": 1.9100120346286873
+      },
+      {
+        "symbol": "VELVETUSDT",
+        "exchange": "BN",
+        "funding_d": 0.030000000000000002,
+        "chg_d": 10.441310282074614
+      }
+    ],
+    "funding_neg_top20": [
+      {
+        "symbol": "B3USDT",
+        "exchange": "Bybit",
+        "funding_d": -5.705012,
+        "chg_d": -5.259231629988816
+      },
+      {
+        "symbol": "SXTUSDT",
+        "exchange": "BN",
+        "funding_d": -3.6619620000000004,
+        "chg_d": -13.753336892685523
+      },
+      {
+        "symbol": "VANRYUSDT",
+        "exchange": "BN",
+        "funding_d": -1.240486,
+        "chg_d": 9.863644412962639
+      },
+      {
+        "symbol": "SKHYUSDT",
+        "exchange": "Bybit",
+        "funding_d": -0.065657,
+        "chg_d": -2.2677995898036944
+      },
+      {
+        "symbol": "MSTRUSDT",
+        "exchange": "BN",
+        "funding_d": -0.04929,
+        "chg_d": 0.13685651121171666
+      },
+      {
+        "symbol": "COINUSDT",
+        "exchange": "BN",
+        "funding_d": -0.04584,
+        "chg_d": -0.627431296273058
+      },
+      {
+        "symbol": "PUMPUSDT",
+        "exchange": "BN",
+        "funding_d": -0.04346100000000001,
+        "chg_d": 5.263157894736837
+      },
+      {
+        "symbol": "KORUUSDT",
+        "exchange": "BN",
+        "funding_d": -0.041063999999999996,
+        "chg_d": -1.183497400730021
+      },
+      {
+        "symbol": "PENGUUSDT",
+        "exchange": "BN",
+        "funding_d": -0.036916000000000004,
+        "chg_d": -0.9268454154253498
+      },
+      {
+        "symbol": "DRAMUSDT",
+        "exchange": "BN",
+        "funding_d": -0.029411999999999997,
+        "chg_d": -1.7307081613210484
+      },
+      {
+        "symbol": "ADAUSDT",
+        "exchange": "BN",
+        "funding_d": -0.027580999999999998,
+        "chg_d": -2.3536511768255806
+      },
+      {
+        "symbol": "CBRSUSDT",
+        "exchange": "BN",
+        "funding_d": -0.026789,
+        "chg_d": 0.08535660091047365
+      },
+      {
+        "symbol": "MUUSDT",
+        "exchange": "BN",
+        "funding_d": -0.023278,
+        "chg_d": -1.103820445207575
+      },
+      {
+        "symbol": "AMDUSDT",
+        "exchange": "BN",
+        "funding_d": -0.022666,
+        "chg_d": -1.335206059097534
+      },
+      {
+        "symbol": "EGLDUSDT",
+        "exchange": "BN",
+        "funding_d": -0.022162,
+        "chg_d": 4.192439862542951
+      },
+      {
+        "symbol": "0GUSDT",
+        "exchange": "BN",
+        "funding_d": -0.020374000000000003,
+        "chg_d": -2.396166134185306
+      },
+      {
+        "symbol": "MRVLUSDT",
+        "exchange": "BN",
+        "funding_d": -0.020326,
+        "chg_d": -0.1731492039359756
+      },
+      {
+        "symbol": "ADAUSDT",
+        "exchange": "Bybit",
+        "funding_d": -0.019736000000000004,
+        "chg_d": -2.293301146650572
+      },
+      {
+        "symbol": "AVAXUSDT",
+        "exchange": "Bybit",
+        "funding_d": -0.017745,
+        "chg_d": -2.1845401772074653
+      },
+      {
+        "symbol": "SAMSUNGUSDT",
+        "exchange": "BN",
+        "funding_d": -0.01362,
+        "chg_d": -0.911662999056905
+      }
+    ]
+  },
+  "gainers": {
+    "BN_spot": [
+      {
+        "symbol": "DODOUSDT",
+        "close": 0.02322,
+        "chg_d": 44.13407821229052,
+        "vol": 5310250.011077
+      },
+      {
+        "symbol": "DEXEUSDT",
+        "close": 47.888,
+        "chg_d": 25.31860885039122,
+        "vol": 35720761.14022
+      },
+      {
+        "symbol": "VANRYUSDT",
+        "close": 0.006229,
+        "chg_d": 9.955869373345108,
+        "vol": 11718586.856677
+      },
+      {
+        "symbol": "SYNUSDT",
+        "close": 0.31987,
+        "chg_d": 8.858562482983936,
+        "vol": 5925130.808685
+      },
+      {
+        "symbol": "WLDUSDT",
+        "close": 0.4185,
+        "chg_d": 5.3095118268746875,
+        "vol": 28992055.38241
+      },
+      {
+        "symbol": "PUMPUSDT",
+        "close": 0.001461,
+        "chg_d": 5.1079136690647555,
+        "vol": 3292471.072027
+      },
+      {
+        "symbol": "ZECUSDT",
+        "close": 533.53,
+        "chg_d": 4.88313118009003,
+        "vol": 89187057.38562
+      },
+      {
+        "symbol": "KITEUSDT",
+        "close": 0.1204,
+        "chg_d": 4.423243712055502,
+        "vol": 1272923.19603
+      },
+      {
+        "symbol": "FFUSDT",
+        "close": 0.06063,
+        "chg_d": 3.18243703199456,
+        "vol": 1589321.481169
+      },
+      {
+        "symbol": "ALLOUSDT",
+        "close": 0.3736,
+        "chg_d": 2.8068244358833203,
+        "vol": 8032198.37137
+      },
+      {
+        "symbol": "PEPEUSDT",
+        "close": 2.77e-06,
+        "chg_d": 2.2140221402214126,
+        "vol": 10345391.2503288
+      },
+      {
+        "symbol": "POLUSDT",
+        "close": 0.08106,
+        "chg_d": 1.8981772470144531,
+        "vol": 2334106.923765
+      },
+      {
+        "symbol": "JTOUSDT",
+        "close": 0.6099,
+        "chg_d": 1.7517517517517438,
+        "vol": 2124101.54402
+      },
+      {
+        "symbol": "LUMIAUSDT",
+        "close": 0.1205,
+        "chg_d": 1.6877637130801704,
+        "vol": 249670.72231
+      },
+      {
+        "symbol": "DASHUSDT",
+        "close": 34.43,
+        "chg_d": 1.3541360023550215,
+        "vol": 3188264.92757
+      },
+      {
+        "symbol": "KAITOUSDT",
+        "close": 0.6688,
+        "chg_d": 1.3333333333333208,
+        "vol": 1826324.96805
+      },
+      {
+        "symbol": "NEARUSDT",
+        "close": 1.889,
+        "chg_d": 1.0700909577314082,
+        "vol": 13749538.3023
+      },
+      {
+        "symbol": "ETHUSDT",
+        "close": 1806.8,
+        "chg_d": 1.0650199131874503,
+        "vol": 255198846.993177
+      },
+      {
+        "symbol": "LINKUSDT",
+        "close": 7.997,
+        "chg_d": 1.0360075805432702,
+        "vol": 7076654.25739
+      },
+      {
+        "symbol": "VANAUSDT",
+        "close": 1.191,
+        "chg_d": 1.0178117048346065,
+        "vol": 398641.02055
+      },
+      {
+        "symbol": "TAOUSDT",
+        "close": 209.9,
+        "chg_d": 0.9620009620009621,
+        "vol": 9620805.97376
+      },
+      {
+        "symbol": "SUIUSDT",
+        "close": 0.736,
+        "chg_d": 0.9463722397476365,
+        "vol": 13074204.74275
+      },
+      {
+        "symbol": "TRXUSDT",
+        "close": 0.3316,
+        "chg_d": 0.5153076689905969,
+        "vol": 19473281.53958
+      },
+      {
+        "symbol": "SOLUSDT",
+        "close": 76.92,
+        "chg_d": 0.16929287667664467,
+        "vol": 85077113.70053
+      },
+      {
+        "symbol": "CRCLBUSDT",
+        "close": 66.52,
+        "chg_d": 0.15055706112615824,
+        "vol": 1671319.3106
+      },
+      {
+        "symbol": "FILUSDT",
+        "close": 0.772,
+        "chg_d": 0.12970168612191968,
+        "vol": 4441884.75039
+      },
+      {
+        "symbol": "RLUSDUSDT",
+        "close": 1.0006,
+        "chg_d": 0.0,
+        "vol": 7544817.2665
+      },
+      {
+        "symbol": "XLMUSDT",
+        "close": 0.1865,
+        "chg_d": 0.0,
+        "vol": 7840655.5423
+      },
+      {
+        "symbol": "ASTERUSDT",
+        "close": 0.622,
+        "chg_d": 0.0,
+        "vol": 2357517.26136
+      },
+      {
+        "symbol": "USDCUSDT",
+        "close": 1.00042,
+        "chg_d": -0.006996571679878309,
+        "vol": 891846329.95445
+      }
+    ],
+    "BN_fut": [
+      {
+        "symbol": "DODOXUSDT",
+        "close": 0.023257,
+        "chg_d": 44.777141434262965,
+        "vol": 75051043.401871
+      },
+      {
+        "symbol": "DEXEUSDT",
+        "close": 47.94,
+        "chg_d": 25.398901386345806,
+        "vol": 264996773.9739
+      },
+      {
+        "symbol": "BILLUSDT",
+        "close": 0.04959,
+        "chg_d": 21.039785208689292,
+        "vol": 68433956.23116
+      },
+      {
+        "symbol": "VELVETUSDT",
+        "close": 0.4855,
+        "chg_d": 10.441310282074614,
+        "vol": 102517645.83358
+      },
+      {
+        "symbol": "VANRYUSDT",
+        "close": 0.006204,
+        "chg_d": 9.863644412962639,
+        "vol": 99376144.191777
+      },
+      {
+        "symbol": "SYNUSDT",
+        "close": 0.3194,
+        "chg_d": 8.824531516183999,
+        "vol": 28003562.60365
+      },
+      {
+        "symbol": "USUSDT",
+        "close": 0.023384,
+        "chg_d": 6.708040522040701,
+        "vol": 29400340.125526
+      },
+      {
+        "symbol": "WLDUSDT",
+        "close": 0.4184,
+        "chg_d": 5.3638881893729495,
+        "vol": 221646506.1373
+      },
+      {
+        "symbol": "PUMPUSDT",
+        "close": 0.00146,
+        "chg_d": 5.263157894736837,
+        "vol": 29787361.499201
+      },
+      {
+        "symbol": "ZECUSDT",
+        "close": 533.15,
+        "chg_d": 4.835221016202606,
+        "vol": 659026797.53756
+      },
+      {
+        "symbol": "EGLDUSDT",
+        "close": 3.032,
+        "chg_d": 4.192439862542951,
+        "vol": 13280845.0718
+      },
+      {
+        "symbol": "ALLOUSDT",
+        "close": 0.37319,
+        "chg_d": 2.7194406980264785,
+        "vol": 51857684.86436
+      },
+      {
+        "symbol": "1000PEPEUSDT",
+        "close": 0.0027662,
+        "chg_d": 2.183148018174425,
+        "vol": 118442350.8703363
+      },
+      {
+        "symbol": "LITUSDT",
+        "close": 2.6251,
+        "chg_d": 1.9100120346286873,
+        "vol": 50412415.10394
+      },
+      {
+        "symbol": "KAITOUSDT",
+        "close": 0.668,
+        "chg_d": 1.3657056145675277,
+        "vol": 15286544.91487
+      },
+      {
+        "symbol": "NVDAUSDT",
+        "close": 210.98,
+        "chg_d": 1.1797429503165064,
+        "vol": 19221186.224
+      },
+      {
+        "symbol": "NEARUSDT",
+        "close": 1.887,
+        "chg_d": 1.1254019292604451,
+        "vol": 76852211.404
+      },
+      {
+        "symbol": "ETHUSDT",
+        "close": 1805.92,
+        "chg_d": 1.0757261991380773,
+        "vol": 4353707091.18831
+      },
+      {
+        "symbol": "LINKUSDT",
+        "close": 7.992,
+        "chg_d": 1.0622154779969604,
+        "vol": 56684208.24208
+      },
+      {
+        "symbol": "TAOUSDT",
+        "close": 209.9,
+        "chg_d": 1.0446252346796399,
+        "vol": 51744266.24755
+      },
+      {
+        "symbol": "SUIUSDT",
+        "close": 0.7356,
+        "chg_d": 0.9746053534660253,
+        "vol": 81097978.41989
+      },
+      {
+        "symbol": "HYPEUSDT",
+        "close": 67.306,
+        "chg_d": 0.8450450990380763,
+        "vol": 301771675.04339
+      },
+      {
+        "symbol": "BZUSDT",
+        "close": 78.34,
+        "chg_d": 0.7977354606279009,
+        "vol": 137230631.018
+      },
+      {
+        "symbol": "CLUSDT",
+        "close": 73.6,
+        "chg_d": 0.35451322607034486,
+        "vol": 293542018.3334
+      },
+      {
+        "symbol": "CRCLUSDT",
+        "close": 66.6,
+        "chg_d": 0.22573363431149956,
+        "vol": 12635445.9394
+      },
+      {
+        "symbol": "SOLUSDT",
+        "close": 76.86,
+        "chg_d": 0.15637216575450164,
+        "vol": 930404334.1551
+      },
+      {
+        "symbol": "MSTRUSDT",
+        "close": 95.12,
+        "chg_d": 0.13685651121171666,
+        "vol": 15087564.4709
+      },
+      {
+        "symbol": "FILUSDT",
+        "close": 0.7715,
+        "chg_d": 0.11679211004412302,
+        "vol": 34699595.0247446
+      },
+      {
+        "symbol": "CBRSUSDT",
+        "close": 211.06,
+        "chg_d": 0.08535660091047365,
+        "vol": 1797491.6795
+      },
+      {
+        "symbol": "XLMUSDT",
+        "close": 0.18626,
+        "chg_d": -0.010736525660292165,
+        "vol": 45205236.25853
+      }
+    ],
+    "OKX_spot": [
+      {
+        "symbol": "ZEC-USDT",
+        "close": 531.45,
+        "chg_d": 5.350275542163911,
+        "vol": 14425969.6590026
+      },
+      {
+        "symbol": "WLD-USDT",
+        "close": 0.4263,
+        "chg_d": 4.5109095366511465,
+        "vol": 7118070.2031686
+      },
+      {
+        "symbol": "BASED-USDT",
+        "close": 0.10162,
+        "chg_d": 2.3569701853344167,
+        "vol": 1767414.6404254
+      },
+      {
+        "symbol": "LIT-USDT",
+        "close": 2.6377,
+        "chg_d": 2.2205859556657934,
+        "vol": 4742575.1029923
+      },
+      {
+        "symbol": "MON-USDT",
+        "close": 0.02293,
+        "chg_d": 0.7912087912087895,
+        "vol": 1093120.256801
+      },
+      {
+        "symbol": "HYPE-USDT",
+        "close": 67.56,
+        "chg_d": 0.47142453489583647,
+        "vol": 11562540.5983417
+      },
+      {
+        "symbol": "ETH-USDT",
+        "close": 1820.89,
+        "chg_d": 0.3416561506373014,
+        "vol": 141026798.32658342
+      },
+      {
+        "symbol": "SUI-USDT",
+        "close": 0.7449,
+        "chg_d": 0.24222850222043116,
+        "vol": 6733050.6668044
+      },
+      {
+        "symbol": "BNB-USDT",
+        "close": 581.2,
+        "chg_d": 0.22417658216935132,
+        "vol": 3593732.4735688
+      },
+      {
+        "symbol": "LINK-USDT",
+        "close": 8.071,
+        "chg_d": 0.11163483006698513,
+        "vol": 1924922.111992702
+      },
+      {
+        "symbol": "BTC-USDT",
+        "close": 64180.1,
+        "chg_d": 0.007635348234211122,
+        "vol": 156030756.97587118
+      },
+      {
+        "symbol": "USDG-USDT",
+        "close": 1.0007,
+        "chg_d": -0.009992006394882994,
+        "vol": 6992963.3223455
+      },
+      {
+        "symbol": "USDC-USDT",
+        "close": 1.0005,
+        "chg_d": -0.0199860097931426,
+        "vol": 23990840.30004996
+      },
+      {
+        "symbol": "PEPE-USDT",
+        "close": 2.785e-06,
+        "chg_d": -0.03589375448672201,
+        "vol": 4364279.326397301
+      },
+      {
+        "symbol": "TRX-USDT",
+        "close": 0.33116,
+        "chg_d": -0.04829168175781525,
+        "vol": 4023695.060004125
+      },
+      {
+        "symbol": "PUMP-USDT",
+        "close": 0.001448,
+        "chg_d": -0.06901311249136756,
+        "vol": 1795426.863602
+      },
+      {
+        "symbol": "XAUT-USDT",
+        "close": 4097.2,
+        "chg_d": -0.13649215170128604,
+        "vol": 1090416.1310707
+      },
+      {
+        "symbol": "DATA-USDT",
+        "close": 0.2738,
+        "chg_d": -0.14587892049599252,
+        "vol": 3823468.817625
+      },
+      {
+        "symbol": "NEAR-USDT",
+        "close": 1.899,
+        "chg_d": -0.2626050420168011,
+        "vol": 2287769.556953415
+      },
+      {
+        "symbol": "OKB-USDT",
+        "close": 80.77,
+        "chg_d": -0.28395061728395554,
+        "vol": 3531425.9412735
+      },
+      {
+        "symbol": "LTC-USDT",
+        "close": 44.8,
+        "chg_d": -0.7971656333038075,
+        "vol": 2282537.0802628
+      },
+      {
+        "symbol": "XLM-USDT",
+        "close": 0.18991,
+        "chg_d": -0.8665239860103331,
+        "vol": 1872116.8963148508
+      },
+      {
+        "symbol": "XRP-USDT",
+        "close": 1.1019,
+        "chg_d": -1.0150916277398372,
+        "vol": 12337861.972155213
+      },
+      {
+        "symbol": "BCH-USDT",
+        "close": 245.4,
+        "chg_d": -1.1281224818694533,
+        "vol": 1104222.4201062
+      },
+      {
+        "symbol": "SOL-USDT",
+        "close": 77.47,
+        "chg_d": -1.1736190840668475,
+        "vol": 36594430.93686876
+      },
+      {
+        "symbol": "AAVE-USDT",
+        "close": 98.69,
+        "chg_d": -1.2902580516103281,
+        "vol": 2513551.006771
+      },
+      {
+        "symbol": "KAITO-USDT",
+        "close": 0.6574,
+        "chg_d": -1.409718056388717,
+        "vol": 1335723.6873752
+      },
+      {
+        "symbol": "GRAM-USDT",
+        "close": 1.646,
+        "chg_d": -1.6138673042438811,
+        "vol": 2199001.374304
+      },
+      {
+        "symbol": "UNI-USDT",
+        "close": 3.679,
+        "chg_d": -1.7098584023510568,
+        "vol": 4963259.987286791
+      },
+      {
+        "symbol": "PI-USDT",
+        "close": 0.0967,
+        "chg_d": -1.8274111675127003,
+        "vol": 1663301.1924156
+      }
+    ],
+    "OKX_fut": [],
+    "Bybit_spot": [
+      {
+        "symbol": "BILLUSDT",
+        "close": 0.04954,
+        "chg_d": 20.829268292682922,
+        "vol": 2747227.457863
+      },
+      {
+        "symbol": "EDGEUSDT",
+        "close": 0.3968,
+        "chg_d": 8.031581813231682,
+        "vol": 2197753.57633
+      },
+      {
+        "symbol": "CAPUSDT",
+        "close": 0.016998,
+        "chg_d": 6.583897667419104,
+        "vol": 2237660.5382811
+      },
+      {
+        "symbol": "WLDUSDT",
+        "close": 0.4185,
+        "chg_d": 5.283018867924519,
+        "vol": 11740462.666955
+      },
+      {
+        "symbol": "PUMPUSDT",
+        "close": 0.001461,
+        "chg_d": 5.183585313174946,
+        "vol": 1798254.0596329
+      },
+      {
+        "symbol": "EGLDUSDT",
+        "close": 3.034,
+        "chg_d": 4.082332761578037,
+        "vol": 160305.367508
+      },
+      {
+        "symbol": "BASEDUSDT",
+        "close": 0.1022,
+        "chg_d": 3.7563451776649694,
+        "vol": 405319.087571
+      },
+      {
+        "symbol": "MONUSDT",
+        "close": 0.02281,
+        "chg_d": 2.3788150807899426,
+        "vol": 3655701.934593
+      },
+      {
+        "symbol": "PYTHUSDT",
+        "close": 0.04792,
+        "chg_d": 2.371288186284982,
+        "vol": 588261.498575
+      },
+      {
+        "symbol": "GRASSUSDT",
+        "close": 0.4031,
+        "chg_d": 2.17997465145754,
+        "vol": 733915.61761
+      },
+      {
+        "symbol": "PEPEUSDT",
+        "close": 2.765e-06,
+        "chg_d": 2.067183462532314,
+        "vol": 2057163.270833386
+      },
+      {
+        "symbol": "LITUSDT",
+        "close": 2.6312,
+        "chg_d": 1.9686870252674071,
+        "vol": 7190119.777525
+      },
+      {
+        "symbol": "POLUSDT",
+        "close": 0.08108,
+        "chg_d": 1.8592964824120544,
+        "vol": 1342511.344951
+      },
+      {
+        "symbol": "ETHFIUSDT",
+        "close": 0.4224,
+        "chg_d": 1.8322082931533257,
+        "vol": 1928020.369706
+      },
+      {
+        "symbol": "JTOUSDT",
+        "close": 0.6099,
+        "chg_d": 1.6669444907484596,
+        "vol": 636890.15802
+      },
+      {
+        "symbol": "LINKUSDT",
+        "close": 8.002,
+        "chg_d": 1.1247314545684368,
+        "vol": 7009126.1940818
+      },
+      {
+        "symbol": "NEARUSDT",
+        "close": 1.888,
+        "chg_d": 1.0706638115631582,
+        "vol": 3645825.59543
+      },
+      {
+        "symbol": "ETHUSDT",
+        "close": 1806.75,
+        "chg_d": 1.061092528163422,
+        "vol": 75548924.3136458
+      },
+      {
+        "symbol": "SPXUSDT",
+        "close": 0.3734,
+        "chg_d": 1.0554803788903964,
+        "vol": 640554.67116
+      },
+      {
+        "symbol": "SUIUSDT",
+        "close": 0.7365,
+        "chg_d": 1.0426670325147551,
+        "vol": 1899981.128434
+      },
+      {
+        "symbol": "STETHUSDT",
+        "close": 1806.2,
+        "chg_d": 0.9777996433183697,
+        "vol": 830072.8300724
+      },
+      {
+        "symbol": "VANAUSDT",
+        "close": 1.19,
+        "chg_d": 0.9329940627650465,
+        "vol": 180241.29368
+      },
+      {
+        "symbol": "EIGENUSDT",
+        "close": 0.2281,
+        "chg_d": 0.8399646330680747,
+        "vol": 366961.27011
+      },
+      {
+        "symbol": "HYPEUSDT",
+        "close": 67.34,
+        "chg_d": 0.8083832335329435,
+        "vol": 23429641.1447
+      },
+      {
+        "symbol": "TRXUSDT",
+        "close": 0.3316,
+        "chg_d": 0.5153076689905969,
+        "vol": 1373304.785573
+      },
+      {
+        "symbol": "ZENUSDT",
+        "close": 4.13,
+        "chg_d": 0.29140359397764853,
+        "vol": 219653.498626
+      },
+      {
+        "symbol": "SOLUSDT",
+        "close": 76.92,
+        "chg_d": 0.15625000000000594,
+        "vol": 19530165.860102
+      },
+      {
+        "symbol": "CRCLXUSDT",
+        "close": 66.53,
+        "chg_d": 0.07521058965101858,
+        "vol": 62734.94259
+      },
+      {
+        "symbol": "XLMUSDT",
+        "close": 0.1866,
+        "chg_d": 0.05361930294905576,
+        "vol": 1516914.497309
+      },
+      {
+        "symbol": "NIGHTUSDT",
+        "close": 0.03052,
+        "chg_d": 0.0327761389708279,
+        "vol": 283949.336804
+      }
+    ],
+    "Bybit_fut": [
+      {
+        "symbol": "BILLUSDT",
+        "close": 0.0495,
+        "chg_d": 20.90864680019542,
+        "vol": 19827588.4025
+      },
+      {
+        "symbol": "WLDUSDT",
+        "close": 0.4183,
+        "chg_d": 5.365239294710324,
+        "vol": 62528718.16618
+      },
+      {
+        "symbol": "PUMPFUNUSDT",
+        "close": 0.0014595,
+        "chg_d": 5.174028968797299,
+        "vol": 10046045.10377
+      },
+      {
+        "symbol": "ZECUSDT",
+        "close": 533.15,
+        "chg_d": 4.847590953785639,
+        "vol": 132257110.6977
+      },
+      {
+        "symbol": "1000PEPEUSDT",
+        "close": 0.002765,
+        "chg_d": 2.1425932766900586,
+        "vol": 35425150.4454
+      },
+      {
+        "symbol": "LITUSDT",
+        "close": 2.6291,
+        "chg_d": 2.025689782296559,
+        "vol": 12564368.04625
+      },
+      {
+        "symbol": "KAITOUSDT",
+        "close": 0.6689,
+        "chg_d": 1.333131343735802,
+        "vol": 4373763.1892
+      },
+      {
+        "symbol": "NEARUSDT",
+        "close": 1.8869,
+        "chg_d": 1.092954728100722,
+        "vol": 41153304.43454
+      },
+      {
+        "symbol": "ETHUSDT",
+        "close": 1806.21,
+        "chg_d": 1.0857337937441636,
+        "vol": 1215009529.9317
+      },
+      {
+        "symbol": "LINKUSDT",
+        "close": 7.992,
+        "chg_d": 1.0622154779969604,
+        "vol": 16857102.3292
+      },
+      {
+        "symbol": "TAOUSDT",
+        "close": 209.89,
+        "chg_d": 1.0203590508735505,
+        "vol": 16120780.40534
+      },
+      {
+        "symbol": "SUIUSDT",
+        "close": 0.7354,
+        "chg_d": 0.9610104338275681,
+        "vol": 27121372.512
+      },
+      {
+        "symbol": "HYPEUSDT",
+        "close": 67.293,
+        "chg_d": 0.8421872892658762,
+        "vol": 91226575.86061
+      },
+      {
+        "symbol": "CLUSDT",
+        "close": 73.69,
+        "chg_d": 0.23122959738846807,
+        "vol": 23095549.3634
+      },
+      {
+        "symbol": "SOLUSDT",
+        "close": 76.88,
+        "chg_d": 0.19549068161083208,
+        "vol": 360069455.527
+      },
+      {
+        "symbol": "CBRSUSDT",
+        "close": 211.25,
+        "chg_d": 0.15170909780495576,
+        "vol": 137097.5186
+      },
+      {
+        "symbol": "XLMUSDT",
+        "close": 0.18628,
+        "chg_d": 0.005368551028082891,
+        "vol": 16944011.82386
+      },
+      {
+        "symbol": "SPCXUSDT",
+        "close": 145.82,
+        "chg_d": -0.0068572995954325755,
+        "vol": 5628749.9225
+      },
+      {
+        "symbol": "BTCUSDT",
+        "close": 63745.0,
+        "chg_d": -0.05848017396676336,
+        "vol": 1957336770.7476
+      },
+      {
+        "symbol": "ENAUSDT",
+        "close": 0.07987,
+        "chg_d": -0.08756567425569253,
+        "vol": 25049342.28065
+      },
+      {
+        "symbol": "BNBUSDT",
+        "close": 573.4,
+        "chg_d": -0.1393242772553236,
+        "vol": 23724059.977
+      },
+      {
+        "symbol": "ONDOUSDT",
+        "close": 0.3227,
+        "chg_d": -0.4012345679012418,
+        "vol": 11905471.0337
+      },
+      {
+        "symbol": "XAUTUSDT",
+        "close": 4076.4,
+        "chg_d": -0.4906627608934434,
+        "vol": 11056028.8621
+      },
+      {
+        "symbol": "XAUUSDT",
+        "close": 4087.81,
+        "chg_d": -0.6073735833825704,
+        "vol": 53912055.0173
+      },
+      {
+        "symbol": "DOGEUSDT",
+        "close": 0.07267,
+        "chg_d": -0.6833401667350013,
+        "vol": 45218756.86961
+      },
+      {
+        "symbol": "GOOGLUSDT",
+        "close": 356.25,
+        "chg_d": -0.7991757629761653,
+        "vol": 93952.2619
+      },
+      {
+        "symbol": "FARTCOINUSDT",
+        "close": 0.14705,
+        "chg_d": -0.8763060330300123,
+        "vol": 19533965.09804
+      },
+      {
+        "symbol": "SNDKUSDT",
+        "close": 1928.41,
+        "chg_d": -0.9008499748193661,
+        "vol": 3965446.5304
+      },
+      {
+        "symbol": "XRPUSDT",
+        "close": 1.0853,
+        "chg_d": -0.9943440977923856,
+        "vol": 163432347.96081
+      },
+      {
+        "symbol": "MUUSDT",
+        "close": 967.68,
+        "chg_d": -1.130024316978979,
+        "vol": 3443882.0854
+      }
+    ],
+    "HTX_spot": [
+      {
+        "symbol": "BEATUSDT",
+        "close": 2.7476,
+        "chg_d": 12.431459202880752,
+        "vol": 2153585.896309021
+      },
+      {
+        "symbol": "ZECUSDT",
+        "close": 498.91,
+        "chg_d": 6.020230354031204,
+        "vol": 6212030.858173416
+      },
+      {
+        "symbol": "GIGGLEUSDT",
+        "close": 26.78,
+        "chg_d": 3.0792917628945373,
+        "vol": 5312090.52386281
+      },
+      {
+        "symbol": "XMRUSDT",
+        "close": 329.86,
+        "chg_d": 2.660981606548197,
+        "vol": 9564767.296124188
+      },
+      {
+        "symbol": "BLUAIUSDT",
+        "close": 0.017044,
+        "chg_d": 2.1455112069998843,
+        "vol": 3954239.16460271
+      },
+      {
+        "symbol": "ENSOUSDT",
+        "close": 0.7163,
+        "chg_d": 2.0952109464082165,
+        "vol": 3712370.82043287
+      },
+      {
+        "symbol": "RAINUSDT",
+        "close": 0.014602,
+        "chg_d": 1.4168634532574043,
+        "vol": 8053720.606373497
+      },
+      {
+        "symbol": "CHIPUSDT",
+        "close": 0.032652,
+        "chg_d": 1.410025467420346,
+        "vol": 3521984.1193765826
+      },
+      {
+        "symbol": "FUNUSDT",
+        "close": 0.003517,
+        "chg_d": 1.1795166858458066,
+        "vol": 2950949.8663026765
+      },
+      {
+        "symbol": "ZENUSDT",
+        "close": 4.2093,
+        "chg_d": 0.8215568862275449,
+        "vol": 1860954.65361046
+      },
+      {
+        "symbol": "XYOUSDT",
+        "close": 0.003116,
+        "chg_d": 0.8087997411840779,
+        "vol": 5014142.095211798
+      },
+      {
+        "symbol": "HTXUSDT",
+        "close": 1.855e-06,
+        "chg_d": 0.7604562737642582,
+        "vol": 114292443.32363899
+      },
+      {
+        "symbol": "SUNUSDT",
+        "close": 0.018532,
+        "chg_d": 0.69002988318391,
+        "vol": 3532005.658193258
+      },
+      {
+        "symbol": "DASHUSDT",
+        "close": 34.81,
+        "chg_d": 0.5197805371065541,
+        "vol": 2588515.0981690516
+      },
+      {
+        "symbol": "HYPEUSDT",
+        "close": 67.517,
+        "chg_d": 0.4632047579297632,
+        "vol": 15266267.861150382
+      },
+      {
+        "symbol": "KYOUSDT",
+        "close": 0.01556,
+        "chg_d": 0.4519044544867584,
+        "vol": 4381828.418621628
+      },
+      {
+        "symbol": "USDQUSDT",
+        "close": 0.9835,
+        "chg_d": 0.3469033772064146,
+        "vol": 4195462.62326937
+      },
+      {
+        "symbol": "DELOREANUSDT",
+        "close": 0.0004562,
+        "chg_d": 0.3298878381350302,
+        "vol": 4095730.7080095108
+      },
+      {
+        "symbol": "ETHUSDT",
+        "close": 1819.75,
+        "chg_d": 0.3258280774489526,
+        "vol": 44537295.28446343
+      },
+      {
+        "symbol": "WARDUSDT",
+        "close": 0.004497,
+        "chg_d": 0.31229087664510646,
+        "vol": 4036530.072338791
+      },
+      {
+        "symbol": "PYUSDUSDT",
+        "close": 1.0002,
+        "chg_d": 0.30084235860409175,
+        "vol": 4199695.67530944
+      },
+      {
+        "symbol": "BNBUSDT",
+        "close": 581.91,
+        "chg_d": 0.28435528900837165,
+        "vol": 6956857.146250541
+      },
+      {
+        "symbol": "MXUSDT",
+        "close": 1.6526,
+        "chg_d": 0.27304168436382326,
+        "vol": 3396197.440565
+      },
+      {
+        "symbol": "APEPEUSDT",
+        "close": 9.179e-07,
+        "chg_d": 0.25120139799039615,
+        "vol": 15641521.750256235
+      },
+      {
+        "symbol": "MELANIAUSDT",
+        "close": 0.082,
+        "chg_d": 0.24449877750611948,
+        "vol": 3379461.08606861
+      },
+      {
+        "symbol": "JSTUSDT",
+        "close": 0.101083,
+        "chg_d": 0.13472416218412744,
+        "vol": 3248815.5135201546
+      },
+      {
+        "symbol": "SUIUSDT",
+        "close": 0.7449,
+        "chg_d": 0.1075124311248519,
+        "vol": 5487042.167085863
+      },
+      {
+        "symbol": "WSTUSDTUSDT",
+        "close": 1.098816,
+        "chg_d": 9.100713040118066e-05,
+        "vol": 5364452.22115745
+      },
+      {
+        "symbol": "USDDUSDT",
+        "close": 0.99999,
+        "chg_d": 0.0,
+        "vol": 20604.808666736
+      },
+      {
+        "symbol": "VELODROMEUSDT",
+        "close": 0.0151,
+        "chg_d": 0.0,
+        "vol": 1376193.68874341
+      }
+    ],
+    "HTX_fut": [
+      {
+        "symbol": "ZEC-USDT",
+        "close": 530.22,
+        "chg_d": 5.041900271410751,
+        "vol": 335874.0
+      },
+      {
+        "symbol": "SNDK-USDT",
+        "close": 1954.6,
+        "chg_d": 0.5990859307448364,
+        "vol": 168962.0
+      },
+      {
+        "symbol": "HYPE-USDT",
+        "close": 67.584,
+        "chg_d": 0.48021884896151934,
+        "vol": 117632.0
+      },
+      {
+        "symbol": "SKHYNIX-USDT",
+        "close": 1484.13,
+        "chg_d": 0.3468559837728269,
+        "vol": 40292.0
+      },
+      {
+        "symbol": "ETH-USDT",
+        "close": 1819.85,
+        "chg_d": 0.32359783459574476,
+        "vol": 30968028.0
+      },
+      {
+        "symbol": "BNB-USDT",
+        "close": 581.122,
+        "chg_d": 0.2532545277010011,
+        "vol": 24728.0
+      },
+      {
+        "symbol": "SUI-USDT",
+        "close": 0.7443,
+        "chg_d": 0.22892539725288497,
+        "vol": 1601384.0
+      },
+      {
+        "symbol": "BTC-USDT",
+        "close": 64135.3,
+        "chg_d": -0.016057219824891552,
+        "vol": 3596838.0
+      },
+      {
+        "symbol": "PEPE-USDT",
+        "close": 2.7827e-06,
+        "chg_d": -0.04669540229884647,
+        "vol": 408188.0
+      },
+      {
+        "symbol": "LTC-USDT",
+        "close": 44.78,
+        "chg_d": -0.841452612931788,
+        "vol": 142502.0
+      },
+      {
+        "symbol": "XRP-USDT",
+        "close": 1.10113,
+        "chg_d": -1.0922580819013867,
+        "vol": 142708.0
+      },
+      {
+        "symbol": "SOL-USDT",
+        "close": 77.45,
+        "chg_d": -1.203039553225987,
+        "vol": 264564.0
+      },
+      {
+        "symbol": "DOGE-USDT",
+        "close": 0.073764,
+        "chg_d": -2.113937656753848,
+        "vol": 1101238.0
+      },
+      {
+        "symbol": "UNI-USDT",
+        "close": 3.6535,
+        "chg_d": -2.1427614838623175,
+        "vol": 300374.0
+      },
+      {
+        "symbol": "ADA-USDT",
+        "close": 0.16435,
+        "chg_d": -4.287411479686922,
+        "vol": 887886.0
+      },
+      {
+        "symbol": "LAB-USDT",
+        "close": 0.4748,
+        "chg_d": -38.70384714691453,
+        "vol": 3548020.0
+      }
+    ]
+  },
+  "us_stocks": [],
+  "errors": {}
+}
