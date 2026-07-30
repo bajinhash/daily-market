@@ -1,0 +1,2369 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-07-30",
+  "slot": "早盘",
+  "timestamp": "2026-07-30T09:02:53.390387+08:00",
+  "comprehensive": [
+    {
+      "_chain": "sol",
+      "_source": "gmgn",
+      "symbol": "Jimothy",
+      "name": "Jimothy The Raccoon",
+      "address": "Ge87EtsjwRQbHaqQmKRno69RFTwh9bfSsm99XNxTpump",
+      "price": 0.0111481,
+      "price_change_percent": 50.2018,
+      "price_change_percent1h": -2.75066,
+      "volume": 14119100,
+      "liquidity": 614085,
+      "market_cap": 11197900,
+      "holder_count": 29896,
+      "smart_degen_count": 138,
+      "renowned_count": 44,
+      "top_10_holder_rate": 0.1107,
+      "dev_team_hold_rate": 9.4e-08,
+      "rug_ratio": 0.08,
+      "twitter_create_token_count": 42,
+      "bundler_rate": 0.4685,
+      "is_honeypot": 0,
+      "hot_level": 0,
+      "red_flags": "⚠️bd47%"
+    },
+    {
+      "_chain": "sol",
+      "_source": "gmgn",
+      "symbol": "Fauci",
+      "name": "Dr. Death",
+      "address": "3VFnDoACa991DYe987w354sbvmhqjjzC4Z31SoZepump",
+      "price": 0.000453378,
+      "price_change_percent": 21224.6,
+      "price_change_percent1h": -10.4085,
+      "volume": 14837700,
+      "liquidity": 66393.1,
+      "market_cap": 440749,
+      "holder_count": 5554,
+      "smart_degen_count": 60,
+      "renowned_count": 21,
+      "top_10_holder_rate": 0.1371,
+      "dev_team_hold_rate": 0,
+      "rug_ratio": 0.01,
+      "twitter_create_token_count": 0,
+      "bundler_rate": 0.4316,
+      "is_honeypot": 0,
+      "hot_level": 2,
+      "red_flags": "⚠️bd43%"
+    },
+    {
+      "_chain": "sol",
+      "_source": "gmgn",
+      "symbol": "ChooChoo",
+      "name": "The Peptide Dog",
+      "address": "GB68eELgf864nrQHjNvrXHF6Xywpp1kYsb7fsGBupump",
+      "price": 0.000915823,
+      "price_change_percent": 39273.2,
+      "price_change_percent1h": 13.6507,
+      "volume": 6226630,
+      "liquidity": 90318.3,
+      "market_cap": 896517,
+      "holder_count": 3129,
+      "smart_degen_count": 53,
+      "renowned_count": 9,
+      "top_10_holder_rate": 0.1725,
+      "dev_team_hold_rate": 0,
+      "rug_ratio": 0.216,
+      "twitter_create_token_count": 0,
+      "bundler_rate": 0.3689,
+      "is_honeypot": 0,
+      "hot_level": 3,
+      "red_flags": "⚠️bd37%"
+    },
+    {
+      "_chain": "sol",
+      "_source": "gmgn",
+      "symbol": "Fraudci",
+      "name": "Antony Fraudci",
+      "address": "3DrBHMJ1rnWp7mMRNmNbWbp4zNiHkM483GqXSzRPpump",
+      "price": 0.00024146,
+      "price_change_percent": 10000.3,
+      "price_change_percent1h": -35.1607,
+      "volume": 6070630,
+      "liquidity": 43397.9,
+      "market_cap": 234947,
+      "holder_count": 2558,
+      "smart_degen_count": 46,
+      "renowned_count": 19,
+      "top_10_holder_rate": 0.195,
+      "dev_team_hold_rate": 0,
+      "rug_ratio": 0.03,
+      "twitter_create_token_count": 0,
+      "bundler_rate": 0.4353,
+      "is_honeypot": 0,
+      "hot_level": 2,
+      "red_flags": "⚠️bd44%"
+    }
+  ],
+  "by_chain": {
+    "sol": [
+      {
+        "_chain": "sol",
+        "_source": "gmgn",
+        "symbol": "ChooChoo",
+        "name": "The Peptide Dog",
+        "address": "GB68eELgf864nrQHjNvrXHF6Xywpp1kYsb7fsGBupump",
+        "price": 0.000915823,
+        "price_change_percent": 39273.2,
+        "price_change_percent1h": 13.6507,
+        "volume": 6226630,
+        "liquidity": 90318.3,
+        "market_cap": 896517,
+        "holder_count": 3129,
+        "smart_degen_count": 53,
+        "renowned_count": 9,
+        "top_10_holder_rate": 0.1725,
+        "dev_team_hold_rate": 0,
+        "rug_ratio": 0.216,
+        "twitter_create_token_count": 0,
+        "bundler_rate": 0.3689,
+        "is_honeypot": 0,
+        "hot_level": 3,
+        "red_flags": "⚠️bd37%"
+      },
+      {
+        "_chain": "sol",
+        "_source": "gmgn",
+        "symbol": "Fauci",
+        "name": "Dr. Death",
+        "address": "3VFnDoACa991DYe987w354sbvmhqjjzC4Z31SoZepump",
+        "price": 0.000453378,
+        "price_change_percent": 21224.6,
+        "price_change_percent1h": -10.4085,
+        "volume": 14837700,
+        "liquidity": 66393.1,
+        "market_cap": 440749,
+        "holder_count": 5554,
+        "smart_degen_count": 60,
+        "renowned_count": 21,
+        "top_10_holder_rate": 0.1371,
+        "dev_team_hold_rate": 0,
+        "rug_ratio": 0.01,
+        "twitter_create_token_count": 0,
+        "bundler_rate": 0.4316,
+        "is_honeypot": 0,
+        "hot_level": 2,
+        "red_flags": "⚠️bd43%"
+      },
+      {
+        "_chain": "sol",
+        "_source": "gmgn",
+        "symbol": "Fraudci",
+        "name": "Antony Fraudci",
+        "address": "3DrBHMJ1rnWp7mMRNmNbWbp4zNiHkM483GqXSzRPpump",
+        "price": 0.00024146,
+        "price_change_percent": 10000.3,
+        "price_change_percent1h": -35.1607,
+        "volume": 6070630,
+        "liquidity": 43397.9,
+        "market_cap": 234947,
+        "holder_count": 2558,
+        "smart_degen_count": 46,
+        "renowned_count": 19,
+        "top_10_holder_rate": 0.195,
+        "dev_team_hold_rate": 0,
+        "rug_ratio": 0.03,
+        "twitter_create_token_count": 0,
+        "bundler_rate": 0.4353,
+        "is_honeypot": 0,
+        "hot_level": 2,
+        "red_flags": "⚠️bd44%"
+      },
+      {
+        "_chain": "sol",
+        "_source": "gmgn",
+        "symbol": "Oscar",
+        "name": "The Space Dog",
+        "address": "74dRE9m75gKQzb9WVkNYBqNjUdkgfLzWyNxtvwUDpump",
+        "price": 5.84597e-05,
+        "price_change_percent": 1688.2,
+        "price_change_percent1h": 30.2324,
+        "volume": 2620040,
+        "liquidity": 18061.5,
+        "market_cap": 56580.2,
+        "holder_count": 1420,
+        "smart_degen_count": 15,
+        "renowned_count": 8,
+        "top_10_holder_rate": 0.1962,
+        "dev_team_hold_rate": 0,
+        "rug_ratio": 0.26,
+        "twitter_create_token_count": 0,
+        "bundler_rate": 0.0692,
+        "is_honeypot": 0,
+        "hot_level": 0
+      },
+      {
+        "_chain": "sol",
+        "_source": "gmgn",
+        "symbol": "MarketCat",
+        "name": "Market Cat",
+        "address": "G8ModkdDYTuUWLTVR4FAV8orFyZKXccZPhtUvvLBpump",
+        "price": 3.99363e-05,
+        "price_change_percent": 1564.4,
+        "price_change_percent1h": -38.072,
+        "volume": 3718730,
+        "liquidity": 14997.4,
+        "market_cap": 38216,
+        "holder_count": 1434,
+        "smart_degen_count": 24,
+        "renowned_count": 6,
+        "top_10_holder_rate": 0.1643,
+        "dev_team_hold_rate": 0,
+        "rug_ratio": 0,
+        "twitter_create_token_count": 0,
+        "bundler_rate": 0.1598,
+        "is_honeypot": 0,
+        "hot_level": 0
+      },
+      {
+        "_chain": "sol",
+        "_source": "gmgn",
+        "symbol": "Jimothy",
+        "name": "Jimothy The Raccoon",
+        "address": "Ge87EtsjwRQbHaqQmKRno69RFTwh9bfSsm99XNxTpump",
+        "price": 0.0111481,
+        "price_change_percent": 50.2018,
+        "price_change_percent1h": -2.75066,
+        "volume": 14119100,
+        "liquidity": 614085,
+        "market_cap": 11197900,
+        "holder_count": 29896,
+        "smart_degen_count": 138,
+        "renowned_count": 44,
+        "top_10_holder_rate": 0.1107,
+        "dev_team_hold_rate": 9.4e-08,
+        "rug_ratio": 0.08,
+        "twitter_create_token_count": 42,
+        "bundler_rate": 0.4685,
+        "is_honeypot": 0,
+        "hot_level": 0,
+        "red_flags": "⚠️bd47%"
+      },
+      {
+        "_chain": "sol",
+        "_source": "gmgn",
+        "symbol": "CATE",
+        "name": "Catecoin",
+        "address": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+        "price": 0.00430855,
+        "price_change_percent": 18.2395,
+        "price_change_percent1h": -5.17842,
+        "volume": 4854680,
+        "liquidity": 492492,
+        "market_cap": 4180190,
+        "holder_count": 17582,
+        "smart_degen_count": 78,
+        "renowned_count": 20,
+        "top_10_holder_rate": 0.1386,
+        "dev_team_hold_rate": 0.0484987618,
+        "rug_ratio": 0.93,
+        "twitter_create_token_count": 40,
+        "bundler_rate": 0.5718,
+        "is_honeypot": 0,
+        "hot_level": 0,
+        "red_flags": "⚠️rug0.93 ⚠️bd57%"
+      },
+      {
+        "_chain": "sol",
+        "_source": "gmgn",
+        "symbol": "ANSEM",
+        "name": "The Black Bull",
+        "address": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
+        "price": 0.16972,
+        "price_change_percent": 2.85651,
+        "price_change_percent1h": -1.19518,
+        "volume": 9192060,
+        "liquidity": 2224140,
+        "market_cap": 169710000,
+        "holder_count": 133075,
+        "smart_degen_count": 193,
+        "renowned_count": 107,
+        "top_10_holder_rate": 0.6304,
+        "dev_team_hold_rate": 0,
+        "rug_ratio": 0.276,
+        "twitter_create_token_count": 4548,
+        "bundler_rate": 0.8117,
+        "is_honeypot": 0,
+        "hot_level": 0,
+        "red_flags": "⚠️tw4548发 ⚠️bd81%"
+      },
+      {
+        "_chain": "sol",
+        "_source": "gmgn",
+        "symbol": "FRANK",
+        "name": "Frank Ocean",
+        "address": "3aqXuwp6HuVXs9vdD9Gpg4dzJaUx443RjK7GXzphpump",
+        "price": 0.000208812,
+        "price_change_percent": -88.2146,
+        "price_change_percent1h": -19.3446,
+        "volume": 4658330,
+        "liquidity": 43109.1,
+        "market_cap": 200820,
+        "holder_count": 5658,
+        "smart_degen_count": 46,
+        "renowned_count": 10,
+        "top_10_holder_rate": 0.1634,
+        "dev_team_hold_rate": 0,
+        "rug_ratio": 0.2597402597402597,
+        "twitter_create_token_count": 0,
+        "bundler_rate": 0.2128,
+        "is_honeypot": 0,
+        "hot_level": 0
+      },
+      {
+        "_chain": "sol",
+        "_source": "gmgn",
+        "symbol": "Diary",
+        "name": "The Fauci Diary",
+        "address": "9MEYExzYucFLtAk2v8PCdw4SM4xox5o4gPZEywyvpump",
+        "price": 5.36097e-05,
+        "price_change_percent": -92.1093,
+        "price_change_percent1h": -29.7609,
+        "volume": 4203860,
+        "liquidity": 19594.9,
+        "market_cap": 48397.6,
+        "holder_count": 2798,
+        "smart_degen_count": 57,
+        "renowned_count": 12,
+        "top_10_holder_rate": 0.1828,
+        "dev_team_hold_rate": 0,
+        "rug_ratio": 0.02,
+        "twitter_create_token_count": 2,
+        "bundler_rate": 0.1598,
+        "is_honeypot": 0,
+        "hot_level": 0
+      }
+    ],
+    "bsc": [
+      {
+        "_chain": "bsc",
+        "_source": "gmgn",
+        "symbol": "Jacket",
+        "name": "Just a jacket",
+        "address": "0xb82535e74b03ffe4910efea1c759b6bbbf0a7777",
+        "price": 0.000265413,
+        "price_change_percent": 7883.1,
+        "price_change_percent1h": 11.4928,
+        "volume": 877886,
+        "liquidity": 46126.8,
+        "market_cap": 264661,
+        "holder_count": 636,
+        "smart_degen_count": 3,
+        "renowned_count": 28,
+        "top_10_holder_rate": 0.1918,
+        "dev_team_hold_rate": 0,
+        "rug_ratio": 0,
+        "twitter_create_token_count": 0,
+        "bundler_rate": 0.1546,
+        "is_honeypot": 0,
+        "hot_level": 0
+      },
+      {
+        "_chain": "bsc",
+        "_source": "gmgn",
+        "symbol": "BELIEVE",
+        "name": "我没有时间说服你",
+        "address": "0xbfc9f4adf160cf194d48c8dfb9103d6bc6a84444",
+        "price": 5.72247e-05,
+        "price_change_percent": 1496.75,
+        "price_change_percent1h": -15.9097,
+        "volume": 1138920,
+        "liquidity": 22663.3,
+        "market_cap": 57224.7,
+        "holder_count": 692,
+        "smart_degen_count": 1,
+        "renowned_count": 25,
+        "top_10_holder_rate": 0.1622,
+        "dev_team_hold_rate": 0,
+        "rug_ratio": 0,
+        "twitter_create_token_count": 0,
+        "bundler_rate": 0.1145,
+        "is_honeypot": 0,
+        "hot_level": 0
+      },
+      {
+        "_chain": "bsc",
+        "_source": "gmgn",
+        "symbol": "黄金时代",
+        "name": "Golden Age",
+        "address": "0x25953078ab08b6738be8a572c2a123d019627777",
+        "price": 0.000202397,
+        "price_change_percent": 1069.45,
+        "price_change_percent1h": -11.5375,
+        "volume": 649768,
+        "liquidity": 43862,
+        "market_cap": 201320,
+        "holder_count": 1104,
+        "smart_degen_count": 2,
+        "renowned_count": 31,
+        "top_10_holder_rate": 0.1636,
+        "dev_team_hold_rate": 0.0220167963,
+        "rug_ratio": 0,
+        "twitter_create_token_count": 91,
+        "bundler_rate": 0.0272,
+        "is_honeypot": 0,
+        "hot_level": 0,
+        "red_flags": "⚠️tw91发"
+      },
+      {
+        "_chain": "bsc",
+        "_source": "gmgn",
+        "symbol": "GoldCoin",
+        "name": "gold coins",
+        "address": "0x8047306fa849566edac2021fa2427f7080677777",
+        "price": 3.59904e-05,
+        "price_change_percent": 461.738,
+        "price_change_percent1h": 0.0723494,
+        "volume": 589743,
+        "liquidity": 17723.1,
+        "market_cap": 35990.4,
+        "holder_count": 620,
+        "smart_degen_count": 0,
+        "renowned_count": 27,
+        "top_10_holder_rate": 0.1643,
+        "dev_team_hold_rate": 0,
+        "rug_ratio": 0,
+        "twitter_create_token_count": 0,
+        "bundler_rate": 0.0459,
+        "is_honeypot": 0,
+        "hot_level": 0
+      },
+      {
+        "_chain": "bsc",
+        "_source": "gmgn",
+        "symbol": "SpaceXcoin",
+        "name": "SpaceXcoin",
+        "address": "0x79d9e7a73fdb95751e1a0d013e121d3be4517777",
+        "price": 0.000195259,
+        "price_change_percent": 253.285,
+        "price_change_percent1h": 46.409,
+        "volume": 668536,
+        "liquidity": 43571.3,
+        "market_cap": 194616,
+        "holder_count": 785,
+        "smart_degen_count": 3,
+        "renowned_count": 26,
+        "top_10_holder_rate": 0.2271,
+        "dev_team_hold_rate": 0,
+        "rug_ratio": 0,
+        "twitter_create_token_count": 0,
+        "bundler_rate": 0.1088,
+        "is_honeypot": 0,
+        "hot_level": 0
+      },
+      {
+        "_chain": "bsc",
+        "_source": "gmgn",
+        "symbol": "HEYI",
+        "name": "The Final Form Cow",
+        "address": "0x4ce634563bb2f72961483357dc31b4c146a24444",
+        "price": 0.0011034,
+        "price_change_percent": 42.0166,
+        "price_change_percent1h": 1.48818,
+        "volume": 1799330,
+        "liquidity": 125806,
+        "market_cap": 1103400,
+        "holder_count": 26867,
+        "smart_degen_count": 57,
+        "renowned_count": 31,
+        "top_10_holder_rate": 0.6853,
+        "dev_team_hold_rate": 0,
+        "rug_ratio": 0,
+        "twitter_create_token_count": 3401,
+        "bundler_rate": 0.021,
+        "is_honeypot": 0,
+        "hot_level": 3,
+        "red_flags": "⚠️tw3401发"
+      },
+      {
+        "_chain": "bsc",
+        "_source": "gmgn",
+        "symbol": "bFUND",
+        "name": "The Fund",
+        "address": "0xbcbdc52ea0d5bfe8b29d3c0afe91341e0ffd7777",
+        "price": 0.000344874,
+        "price_change_percent": 23.4041,
+        "price_change_percent1h": 7.18441,
+        "volume": 1323420,
+        "liquidity": 53735.7,
+        "market_cap": 344221,
+        "holder_count": 1117,
+        "smart_degen_count": 3,
+        "renowned_count": 10,
+        "top_10_holder_rate": 0.222,
+        "dev_team_hold_rate": 0,
+        "rug_ratio": 0,
+        "twitter_create_token_count": 15,
+        "bundler_rate": 0.143,
+        "is_honeypot": 0,
+        "hot_level": 0
+      },
+      {
+        "_chain": "bsc",
+        "_source": "gmgn",
+        "symbol": "MarsCoin",
+        "name": "MarsCoin",
+        "address": "0xfe189e97832da1573e4e4ff034f4ffc3a15c7777",
+        "price": 0.00410753,
+        "price_change_percent": -0.145236,
+        "price_change_percent1h": 9.88561,
+        "volume": 4702470,
+        "liquidity": 227834,
+        "market_cap": 4108250,
+        "holder_count": 5450,
+        "smart_degen_count": 7,
+        "renowned_count": 51,
+        "top_10_holder_rate": 0.1791,
+        "dev_team_hold_rate": 0,
+        "rug_ratio": 0,
+        "twitter_create_token_count": 6972,
+        "bundler_rate": 0.2405,
+        "is_honeypot": 0,
+        "hot_level": 3,
+        "red_flags": "⚠️tw6972发"
+      },
+      {
+        "_chain": "bsc",
+        "_source": "gmgn",
+        "symbol": "币有",
+        "name": "何必东奔西走 币安全部都有",
+        "address": "0xd0bc8ab397851ecfa58009d03bbc1a41fc764444",
+        "price": 0.000561502,
+        "price_change_percent": -37.0852,
+        "price_change_percent1h": 8.90977,
+        "volume": 997267,
+        "liquidity": 99142.3,
+        "market_cap": 577204,
+        "holder_count": 59978,
+        "smart_degen_count": 78,
+        "renowned_count": 77,
+        "top_10_holder_rate": 0.1379,
+        "dev_team_hold_rate": 0,
+        "rug_ratio": 0,
+        "twitter_create_token_count": 0,
+        "bundler_rate": 0.2197,
+        "is_honeypot": 0,
+        "hot_level": 1
+      },
+      {
+        "_chain": "bsc",
+        "_source": "gmgn",
+        "symbol": "TCC",
+        "name": "TCryptochicks",
+        "address": "0xa4390b901a63641c92327e5793b45fcb46954444",
+        "price": 0.0010551,
+        "price_change_percent": -45.758,
+        "price_change_percent1h": -0.621241,
+        "volume": 1209860,
+        "liquidity": 142478,
+        "market_cap": 1055100,
+        "holder_count": 60403,
+        "smart_degen_count": 153,
+        "renowned_count": 109,
+        "top_10_holder_rate": 0.0621,
+        "dev_team_hold_rate": 0,
+        "rug_ratio": 0,
+        "twitter_create_token_count": 58,
+        "bundler_rate": 0.0951,
+        "is_honeypot": 0,
+        "hot_level": 0,
+        "red_flags": "⚠️tw58发"
+      }
+    ],
+    "base": [
+      {
+        "_chain": "base",
+        "_source": "gmgn",
+        "symbol": "EDEL",
+        "name": "Edel",
+        "address": "0xfb31f85a8367210b2e4ed2360d2da9dc2d2ccc95",
+        "price": 0.00757606,
+        "price_change_percent": 6.20554,
+        "price_change_percent1h": 0.721983,
+        "volume": 22385.5,
+        "liquidity": 477936,
+        "market_cap": 7576060,
+        "holder_count": 25786,
+        "smart_degen_count": 4,
+        "renowned_count": 8,
+        "top_10_holder_rate": 0.5235,
+        "dev_team_hold_rate": 0,
+        "rug_ratio": 0.8328690807799443,
+        "twitter_create_token_count": 3,
+        "bundler_rate": 0,
+        "is_honeypot": 0,
+        "hot_level": 0,
+        "red_flags": "⚠️rug0.83"
+      },
+      {
+        "_chain": "base",
+        "_source": "gmgn",
+        "symbol": "KAITO",
+        "name": "KAITO",
+        "address": "0x98d0baa52b2d063e780de12f615f963fe8537553",
+        "price": 1.24438,
+        "price_change_percent": 1.19851,
+        "price_change_percent1h": -0.959079,
+        "volume": 85461.2,
+        "liquidity": 31932.4,
+        "market_cap": 1244380000,
+        "holder_count": 390764,
+        "smart_degen_count": 41,
+        "renowned_count": 158,
+        "top_10_holder_rate": 0.8944,
+        "dev_team_hold_rate": 0,
+        "rug_ratio": 0,
+        "twitter_create_token_count": 0,
+        "bundler_rate": 0,
+        "is_honeypot": 0,
+        "hot_level": 1,
+        "red_flags": "⚠️控89%"
+      },
+      {
+        "_chain": "base",
+        "_source": "gmgn",
+        "symbol": "BRIAN",
+        "name": "Coinbase Man",
+        "address": "0xb2000000000000000000007bf6d5cbb0e24cb301",
+        "price": 0.000278306,
+        "price_change_percent": 0.212714,
+        "price_change_percent1h": -0.539654,
+        "volume": 19307.1,
+        "liquidity": 60161.8,
+        "market_cap": 278306,
+        "holder_count": 9136,
+        "smart_degen_count": 14,
+        "renowned_count": 43,
+        "top_10_holder_rate": 0.1753,
+        "dev_team_hold_rate": 0,
+        "rug_ratio": 0,
+        "twitter_create_token_count": 0,
+        "bundler_rate": 0,
+        "is_honeypot": 0,
+        "hot_level": 0
+      },
+      {
+        "_chain": "base",
+        "_source": "gmgn",
+        "symbol": "SOSO",
+        "name": "SoSoValue",
+        "address": "0x624e2e7fdc8903165f64891672267ab0fcb98831",
+        "price": 0.334482,
+        "price_change_percent": -1.90274,
+        "price_change_percent1h": -0.130384,
+        "volume": 2071490,
+        "liquidity": 131802,
+        "market_cap": 24593800,
+        "holder_count": 95966,
+        "smart_degen_count": 20,
+        "renowned_count": 11,
+        "top_10_holder_rate": 0.9727,
+        "dev_team_hold_rate": 0,
+        "rug_ratio": 0,
+        "twitter_create_token_count": 0,
+        "bundler_rate": 0,
+        "is_honeypot": 0,
+        "hot_level": 2,
+        "red_flags": "⚠️控97%"
+      },
+      {
+        "_chain": "base",
+        "_source": "gmgn",
+        "symbol": "OPG",
+        "name": "OpenGradient",
+        "address": "0xfbc2051ae2265686a469421b2c5a2d5462fbf5eb",
+        "price": 0.0928078,
+        "price_change_percent": -3.26569,
+        "price_change_percent1h": -0.888436,
+        "volume": 60763.5,
+        "liquidity": 421766,
+        "market_cap": 92807800,
+        "holder_count": 14456,
+        "smart_degen_count": 3,
+        "renowned_count": 9,
+        "top_10_holder_rate": 0.9276,
+        "dev_team_hold_rate": 0,
+        "rug_ratio": 0.012987012987012988,
+        "twitter_create_token_count": 14,
+        "bundler_rate": 0,
+        "is_honeypot": 0,
+        "hot_level": 0,
+        "red_flags": "⚠️控93%"
+      },
+      {
+        "_chain": "base",
+        "_source": "gmgn",
+        "symbol": "O",
+        "name": "o1.exchange",
+        "address": "0x182fa643e5f29d5eca75e7b9cf9336a3fe4620b2",
+        "price": 0.464594,
+        "price_change_percent": -4.01776,
+        "price_change_percent1h": -2.92624,
+        "volume": 1117350,
+        "liquidity": 111408,
+        "market_cap": 464594000,
+        "holder_count": 24247,
+        "smart_degen_count": 0,
+        "renowned_count": 4,
+        "top_10_holder_rate": 0.9585,
+        "dev_team_hold_rate": 0,
+        "rug_ratio": 0,
+        "twitter_create_token_count": 6,
+        "bundler_rate": 0,
+        "is_honeypot": 0,
+        "hot_level": 1,
+        "red_flags": "⚠️控96%"
+      },
+      {
+        "_chain": "base",
+        "_source": "gmgn",
+        "symbol": "ELSA",
+        "name": "Elsa",
+        "address": "0x29cc30f9d113b356ce408667aa6433589cecbdca",
+        "price": 0.0448919,
+        "price_change_percent": -4.95201,
+        "price_change_percent1h": -0.683148,
+        "volume": 158863,
+        "liquidity": 36524.3,
+        "market_cap": 44891900,
+        "holder_count": 244559,
+        "smart_degen_count": 1,
+        "renowned_count": 24,
+        "top_10_holder_rate": 0.8966,
+        "dev_team_hold_rate": 0,
+        "rug_ratio": 0.6521739130434783,
+        "twitter_create_token_count": 5,
+        "bundler_rate": 0,
+        "is_honeypot": 0,
+        "hot_level": 0,
+        "red_flags": "⚠️rug0.65 ⚠️控90%"
+      },
+      {
+        "_chain": "base",
+        "_source": "gmgn",
+        "symbol": "BRETT",
+        "name": "Brett",
+        "address": "0x532f27101965dd16442e59d40670faf5ebb142e4",
+        "price": 0.00394258,
+        "price_change_percent": -10.745,
+        "price_change_percent1h": -1.54499,
+        "volume": 638144,
+        "liquidity": 1144700,
+        "market_cap": 39425800,
+        "holder_count": 681984,
+        "smart_degen_count": 68,
+        "renowned_count": 25,
+        "top_10_holder_rate": 0.3322,
+        "dev_team_hold_rate": 0,
+        "rug_ratio": 0,
+        "twitter_create_token_count": 3,
+        "bundler_rate": 0,
+        "is_honeypot": 0,
+        "hot_level": 0
+      },
+      {
+        "_chain": "base",
+        "_source": "gmgn",
+        "symbol": "BEAN",
+        "name": "MineBean",
+        "address": "0x5c72992b83e74c4d5200a8e8920fb946214a5a5d",
+        "price": 2.28793,
+        "price_change_percent": -18.8981,
+        "price_change_percent1h": -11.7558,
+        "volume": 10942.7,
+        "liquidity": 36193.4,
+        "market_cap": 248157,
+        "holder_count": 5401,
+        "smart_degen_count": 0,
+        "renowned_count": 9,
+        "top_10_holder_rate": 0.8,
+        "dev_team_hold_rate": 0,
+        "rug_ratio": 0,
+        "twitter_create_token_count": 22,
+        "bundler_rate": 0,
+        "is_honeypot": 0,
+        "hot_level": 0,
+        "red_flags": "⚠️控80%"
+      },
+      {
+        "_chain": "base",
+        "_source": "gmgn",
+        "symbol": "JERRY",
+        "name": "Jerry the goat",
+        "address": "0xb200000000000000000000d9dac57e31e1aceb01",
+        "price": 0.000168837,
+        "price_change_percent": -29.6839,
+        "price_change_percent1h": -1.66386,
+        "volume": 25168.6,
+        "liquidity": 13567.3,
+        "market_cap": 168837,
+        "holder_count": 1824,
+        "smart_degen_count": 2,
+        "renowned_count": 16,
+        "top_10_holder_rate": 0.6355,
+        "dev_team_hold_rate": 0,
+        "rug_ratio": 0,
+        "twitter_create_token_count": 9,
+        "bundler_rate": 0,
+        "is_honeypot": 0,
+        "hot_level": 0
+      }
+    ],
+    "eth": [
+      {
+        "_chain": "eth",
+        "_source": "dexscr",
+        "symbol": "sato",
+        "name": "sato",
+        "address": "0x829f4B62EEBE12Af653b4dD4fFc480966F7d7f09",
+        "price": 0.2255,
+        "price_change_percent": 5.79,
+        "price_change_percent1h": -0.56,
+        "volume": 11390.81,
+        "liquidity": 268854.37,
+        "market_cap": 3479864,
+        "fdv": 3479864,
+        "dex": "uniswap"
+      },
+      {
+        "_chain": "eth",
+        "_source": "dexscr",
+        "symbol": "SHIB",
+        "name": "SHIBA INU",
+        "address": "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
+        "price": 4.654e-06,
+        "price_change_percent": 0.58,
+        "price_change_percent1h": 0.3,
+        "volume": 224658.75,
+        "liquidity": 2327395.25,
+        "market_cap": 4654418157,
+        "fdv": 4654418157,
+        "dex": "shibaswap"
+      },
+      {
+        "_chain": "eth",
+        "_source": "dexscr",
+        "symbol": "BOBO",
+        "name": "BOBO",
+        "address": "0xB90B2A35C65dBC466b04240097Ca756ad2005295",
+        "price": 2.478e-09,
+        "price_change_percent": 0.52,
+        "price_change_percent1h": 0,
+        "volume": 30.48,
+        "liquidity": 160824.13,
+        "market_cap": 164782,
+        "fdv": 164782,
+        "dex": "uniswap"
+      },
+      {
+        "_chain": "eth",
+        "_source": "dexscr",
+        "symbol": "Kabosu",
+        "name": "Kabosu",
+        "address": "0xBADFf0eF41D2A68F22De21EAbca8A59Aaf495cF0",
+        "price": 1.382e-07,
+        "price_change_percent": 0.1,
+        "price_change_percent1h": 0,
+        "volume": 115.57,
+        "liquidity": 87959.27,
+        "market_cap": 133004,
+        "fdv": 138241,
+        "dex": "uniswap"
+      },
+      {
+        "_chain": "eth",
+        "_source": "dexscr",
+        "symbol": "sato",
+        "name": "sato",
+        "address": "0x5fc27Aa4A840ADc94ca5bb6D831247E36cE0F33a",
+        "price": 0.4857,
+        "price_change_percent": 0,
+        "price_change_percent1h": 0,
+        "volume": 0.01,
+        "liquidity": 4629000,
+        "market_cap": 9258000,
+        "fdv": 9258000,
+        "dex": "uniswap"
+      },
+      {
+        "_chain": "eth",
+        "_source": "dexscr",
+        "symbol": "SATO",
+        "name": "Atsuko Sato",
+        "address": "0x5De758BbA013e58dAe2693aEA3f0B12B31a3023d",
+        "price": 6.403e-05,
+        "price_change_percent": 0,
+        "price_change_percent1h": 0,
+        "volume": 20.86,
+        "liquidity": 45586.79,
+        "market_cap": 63891,
+        "fdv": 63891,
+        "dex": "uniswap"
+      },
+      {
+        "_chain": "eth",
+        "_source": "dexscr",
+        "symbol": "SATO",
+        "name": "Atsuko Sato",
+        "address": "0x8A4bdd0133Ab210c7DFe83A8C3824701c772C10f",
+        "price": 1.548e-08,
+        "price_change_percent": 0,
+        "price_change_percent1h": 0,
+        "volume": 86.43,
+        "liquidity": 7548.49,
+        "market_cap": 6514,
+        "fdv": 6514,
+        "dex": "uniswap"
+      },
+      {
+        "_chain": "eth",
+        "_source": "dexscr",
+        "symbol": "SATO",
+        "name": "Atsuko Inu",
+        "address": "0x0D036F94a8C00233869DAeCD6111C093A3d63106",
+        "price": 8.495e-06,
+        "price_change_percent": 0,
+        "price_change_percent1h": 0,
+        "volume": 206.02,
+        "liquidity": 8430.72,
+        "market_cap": 8496,
+        "fdv": 8496,
+        "dex": "uniswap"
+      },
+      {
+        "_chain": "eth",
+        "_source": "dexscr",
+        "symbol": "wojak",
+        "name": "wojak",
+        "address": "0xF18439dFD12a2962bf1814606Cf0783bdb087d24",
+        "price": 0.06537,
+        "price_change_percent": 0,
+        "price_change_percent1h": 0,
+        "volume": 0.01,
+        "liquidity": 32688643.3,
+        "market_cap": 65377287,
+        "fdv": 65377287,
+        "dex": "uniswap"
+      },
+      {
+        "_chain": "eth",
+        "_source": "dexscr",
+        "symbol": "WOJAK",
+        "name": "wojak",
+        "address": "0x8EAd28f5E95B1e3E23a3366331D7844874CB4087",
+        "price": 0.007086,
+        "price_change_percent": 0,
+        "price_change_percent1h": 0,
+        "volume": 0.01,
+        "liquidity": 149057121.56,
+        "market_cap": 298114243,
+        "fdv": 298114243,
+        "dex": "uniswap"
+      },
+      {
+        "_chain": "eth",
+        "_source": "dexscr",
+        "symbol": "WOJAK",
+        "name": "Wojak Coin",
+        "address": "0xc4fF1131c4000e118E8466fA294a0b16E0628480",
+        "price": 0.0008762,
+        "price_change_percent": 0,
+        "price_change_percent1h": 0,
+        "volume": 0.01,
+        "liquidity": 438139.17,
+        "market_cap": 876278,
+        "fdv": 876278,
+        "dex": "uniswap"
+      },
+      {
+        "_chain": "eth",
+        "_source": "dexscr",
+        "symbol": "WOJAK",
+        "name": "Wojak",
+        "address": "0x9397f0793cEAD5DC1f716AC6d0eF749fE46B16E3",
+        "price": 0.0937,
+        "price_change_percent": 0,
+        "price_change_percent1h": 0,
+        "volume": 0.01,
+        "liquidity": 46852749.78,
+        "market_cap": 93705500,
+        "fdv": 93705500,
+        "dex": "uniswap"
+      },
+      {
+        "_chain": "eth",
+        "_source": "dexscr",
+        "symbol": "wojak",
+        "name": "wojak",
+        "address": "0xAB1bf43B9bfEb5d22644af484ca34a81af45c001",
+        "price": 0.02913,
+        "price_change_percent": 0,
+        "price_change_percent1h": 0,
+        "volume": 0.01,
+        "liquidity": 14565807.55,
+        "market_cap": 29131615,
+        "fdv": 29131615,
+        "dex": "uniswap"
+      },
+      {
+        "_chain": "eth",
+        "_source": "dexscr",
+        "symbol": "ASTEROID",
+        "name": "Asteroid",
+        "address": "0xA6dbdd59318e212ad3Eb6Ca002D5De47195cA27c",
+        "price": 0.0117,
+        "price_change_percent": 0,
+        "price_change_percent1h": 0,
+        "volume": 0.01,
+        "liquidity": 5851210.11,
+        "market_cap": 11702420,
+        "fdv": 11702420,
+        "dex": "uniswap"
+      },
+      {
+        "_chain": "eth",
+        "_source": "dexscr",
+        "symbol": "ASTEROID",
+        "name": "ASTEROID",
+        "address": "0x39564c1593c47d2EB4F551a75F4f899e72CCBff9",
+        "price": 0.002083,
+        "price_change_percent": 0,
+        "price_change_percent1h": 0,
+        "volume": 0.01,
+        "liquidity": 1041935.76,
+        "market_cap": 2083872,
+        "fdv": 2083872,
+        "dex": "uniswap"
+      }
+    ],
+    "robinhood": [
+      {
+        "_chain": "robin",
+        "_source": "dexscr",
+        "symbol": "CASHCAT",
+        "name": "Cash Cat",
+        "address": "0x020bfC650A365f8BB26819deAAbF3E21291018b4",
+        "price": 0.04573,
+        "price_change_percent": 1.83,
+        "price_change_percent1h": 3.76,
+        "volume": 17405444.51,
+        "liquidity": 3237348.67,
+        "market_cap": 45253900,
+        "fdv": 45253900,
+        "dex": "uniswap"
+      },
+      {
+        "_chain": "robin",
+        "_source": "dexscr",
+        "symbol": "HOODRAT",
+        "name": "Hoodrat",
+        "address": "0x8e62F281f282686fCa6dCB39288069a93fC23F1c",
+        "price": 0.003735,
+        "price_change_percent": 114,
+        "price_change_percent1h": 74.22,
+        "volume": 2504838.09,
+        "liquidity": 282895.08,
+        "market_cap": 3735996,
+        "fdv": 3735996,
+        "dex": "uniswap"
+      },
+      {
+        "_chain": "robin",
+        "_source": "dexscr",
+        "symbol": "ASTEROID",
+        "name": "Asteroid Shiba",
+        "address": "0x38aAf33082B20AfF2e33433138de920f131B7777",
+        "price": 0.0009569,
+        "price_change_percent": 67.52,
+        "price_change_percent1h": 6.68,
+        "volume": 527165.83,
+        "liquidity": 100368.38,
+        "market_cap": 956918,
+        "fdv": 956918,
+        "dex": "uniswap"
+      },
+      {
+        "_chain": "robin",
+        "_source": "dexscr",
+        "symbol": "JUGGERNAUT",
+        "name": "The Juggernaut",
+        "address": "0xD7321801CAae694090694Ff55A9323139F043B88",
+        "price": 0.001617,
+        "price_change_percent": 16.98,
+        "price_change_percent1h": 9.96,
+        "volume": 495235.21,
+        "liquidity": 199820.89,
+        "market_cap": 1539161,
+        "fdv": 1539161,
+        "dex": "uniswap"
+      },
+      {
+        "_chain": "robin",
+        "_source": "dexscr",
+        "symbol": "WALLET",
+        "name": "Robinhood Wallet",
+        "address": "0x0339f5459FC690aC85F1782e15782A151b4A9E1b",
+        "price": 0.002391,
+        "price_change_percent": -16.66,
+        "price_change_percent1h": 3.04,
+        "volume": 255464.84,
+        "liquidity": 371066.91,
+        "market_cap": 2260695,
+        "fdv": 2260695,
+        "dex": "uniswap"
+      },
+      {
+        "_chain": "robin",
+        "_source": "dexscr",
+        "symbol": "ROBINHOOD",
+        "name": "The Robinhood Cat",
+        "address": "0x3529E5B86e8749c8487a11ddc239C412228A40cc",
+        "price": 2.295e-05,
+        "price_change_percent": -54.22,
+        "price_change_percent1h": -21.81,
+        "volume": 178048.56,
+        "liquidity": 12798.67,
+        "market_cap": 21567,
+        "fdv": 21567,
+        "dex": "uniswap"
+      },
+      {
+        "_chain": "robin",
+        "_source": "dexscr",
+        "symbol": "ARROW",
+        "name": "Arrow",
+        "address": "0xf2915d1e3C1B0c769d0c756Ec43F1c1f6c99cD03",
+        "price": 0.1469,
+        "price_change_percent": -16.24,
+        "price_change_percent1h": 3.09,
+        "volume": 156394.95,
+        "liquidity": 113714.28,
+        "market_cap": 1322951,
+        "fdv": 1469946,
+        "dex": "uniswap"
+      },
+      {
+        "_chain": "robin",
+        "_source": "dexscr",
+        "symbol": "COOPER",
+        "name": "Cooper",
+        "address": "0x19F862c0cf83a9F65b19C37Fd1F4fd5bAcB097ae",
+        "price": 3.207e-05,
+        "price_change_percent": -63.17,
+        "price_change_percent1h": -7.37,
+        "volume": 119288.84,
+        "liquidity": 15736.41,
+        "market_cap": 31460,
+        "fdv": 31460,
+        "dex": "uniswap"
+      },
+      {
+        "_chain": "robin",
+        "_source": "dexscr",
+        "symbol": "HOODIE",
+        "name": "HOODIE",
+        "address": "0xC72c01AAB5f5678dc1d6f5C6d2B417d91D402Ba3",
+        "price": 2.504e-06,
+        "price_change_percent": -17.56,
+        "price_change_percent1h": 0.66,
+        "volume": 61176.84,
+        "liquidity": 111402.68,
+        "market_cap": 250492,
+        "fdv": 250492,
+        "dex": "uniswap"
+      },
+      {
+        "_chain": "robin",
+        "_source": "dexscr",
+        "symbol": "meow",
+        "name": "meow",
+        "address": "0x75C8258eAa6d0f94b82951194191cA3efB0bCBe2",
+        "price": 0.0001955,
+        "price_change_percent": -18.45,
+        "price_change_percent1h": 11.78,
+        "volume": 52179.8,
+        "liquidity": 42836.89,
+        "market_cap": 173565,
+        "fdv": 173565,
+        "dex": "uniswap"
+      },
+      {
+        "_chain": "robin",
+        "_source": "dexscr",
+        "symbol": "Dog",
+        "name": "dogcoin",
+        "address": "0x589cb4F0ac858DB85b5BBdAe07D072ad40567777",
+        "price": 6.846e-05,
+        "price_change_percent": 674,
+        "price_change_percent1h": 0,
+        "volume": 49845.06,
+        "liquidity": 32998.92,
+        "market_cap": 47485,
+        "fdv": 47485,
+        "dex": "uniswap"
+      },
+      {
+        "_chain": "robin",
+        "_source": "dexscr",
+        "symbol": "HOOD",
+        "name": "foreskin",
+        "address": "0x8cAE1f1d7517331907c5d4d6bD74835c7B68c1a2",
+        "price": 1.526e-05,
+        "price_change_percent": -35.99,
+        "price_change_percent1h": -3.95,
+        "volume": 38122.34,
+        "liquidity": 11835.23,
+        "market_cap": 14138,
+        "fdv": 14138,
+        "dex": "uniswap"
+      },
+      {
+        "_chain": "robin",
+        "_source": "dexscr",
+        "symbol": "CAT",
+        "name": "Catcoin",
+        "address": "0xc1A0df885591D8D3357C924e314B5670Faca6dBb",
+        "price": 0.0007053,
+        "price_change_percent": -10.99,
+        "price_change_percent1h": 0,
+        "volume": 5158.07,
+        "liquidity": 69890.78,
+        "market_cap": 70538,
+        "fdv": 70538,
+        "dex": "uniswap"
+      },
+      {
+        "_chain": "robin",
+        "_source": "dexscr",
+        "symbol": "SENTRY",
+        "name": "Sentry",
+        "address": "0x1EcA20cfa4AF2e2fA2F4CE2bF8d97bFa184FD4D7",
+        "price": 0.0004146,
+        "price_change_percent": -6.58,
+        "price_change_percent1h": 0,
+        "volume": 635.14,
+        "liquidity": 32458.48,
+        "market_cap": 414600,
+        "fdv": 414600,
+        "dex": "uniswap"
+      },
+      {
+        "_chain": "robin",
+        "_source": "dexscr",
+        "symbol": "MOON",
+        "name": "TO THE MOON",
+        "address": "0x06fCba306b81b049bC3a8431b246F94722c03c38",
+        "price": 1.603e-05,
+        "price_change_percent": -9.74,
+        "price_change_percent1h": 0,
+        "volume": 551.34,
+        "liquidity": 10770.15,
+        "market_cap": 14477,
+        "fdv": 14477,
+        "dex": "uniswap"
+      }
+    ]
+  },
+  "aster": [
+    {
+      "symbol": "REZUSDT",
+      "base": "REZ",
+      "onboard": 1785287700000,
+      "onboard_bjt": "2026-07-29 09:15",
+      "tags": [
+        "Renzo"
+      ],
+      "type": "PERPETUAL"
+    },
+    {
+      "symbol": "AEONUSDT",
+      "base": "AEON",
+      "onboard": 1785203100000,
+      "onboard_bjt": "2026-07-28 09:45",
+      "tags": [
+        "AEON"
+      ],
+      "type": "PERPETUAL"
+    },
+    {
+      "symbol": "LPTUSDT",
+      "base": "LPT",
+      "onboard": 1785073500000,
+      "onboard_bjt": "2026-07-26 21:45",
+      "tags": [
+        "Livepeer"
+      ],
+      "type": "PERPETUAL"
+    },
+    {
+      "symbol": "CXMTUSDT",
+      "base": "CXMT",
+      "onboard": 1785070800000,
+      "onboard_bjt": "2026-07-26 21:00",
+      "tags": [
+        "ChangXin Technology",
+        "长鑫科技",
+        "股票",
+        "長鑫科技",
+        "股票"
+      ],
+      "type": 1
+    },
+    {
+      "symbol": "ERAUSDT",
+      "base": "ERA",
+      "onboard": 1784656800000,
+      "onboard_bjt": "2026-07-22 02:00",
+      "tags": [
+        "Caldera"
+      ],
+      "type": "PERPETUAL"
+    },
+    {
+      "symbol": "NESUSDT",
+      "base": "NES",
+      "onboard": 1784644800000,
+      "onboard_bjt": "2026-07-21 22:40",
+      "tags": [
+        "Nesa"
+      ],
+      "type": "PERPETUAL"
+    },
+    {
+      "symbol": "ACEUSDT",
+      "base": "ACE",
+      "onboard": 1784536200000,
+      "onboard_bjt": "2026-07-20 16:30",
+      "tags": [
+        "Fusionist"
+      ],
+      "type": "PERPETUAL"
+    },
+    {
+      "symbol": "1000XECUSDT",
+      "base": "1000XEC",
+      "onboard": 1784375100000,
+      "onboard_bjt": "2026-07-18 19:45",
+      "tags": [
+        "eCash"
+      ],
+      "type": "PERPETUAL"
+    },
+    {
+      "symbol": "SXTUSDT",
+      "base": "SXT",
+      "onboard": 1784025300000,
+      "onboard_bjt": "2026-07-14 18:35",
+      "tags": [
+        "Space and Time"
+      ],
+      "type": "PERPETUAL"
+    },
+    {
+      "symbol": "KSTRUSDT",
+      "base": "KSTR",
+      "onboard": 1783965600000,
+      "onboard_bjt": "2026-07-14 02:00",
+      "tags": [
+        "KraneShares STAR"
+      ],
+      "type": 1
+    },
+    {
+      "symbol": "SKHYUSDT",
+      "base": "SKHY",
+      "onboard": 1783708200000,
+      "onboard_bjt": "2026-07-11 02:30",
+      "tags": [
+        "SKHynix ADR"
+      ],
+      "type": 1
+    },
+    {
+      "symbol": "THEUSDT",
+      "base": "THE",
+      "onboard": 1783598400000,
+      "onboard_bjt": "2026-07-09 20:00",
+      "tags": [
+        "Thena"
+      ],
+      "type": "PERPETUAL"
+    },
+    {
+      "symbol": "HEIUSDT",
+      "base": "HEI",
+      "onboard": 1783529100000,
+      "onboard_bjt": "2026-07-09 00:45",
+      "tags": [
+        "Heima"
+      ],
+      "type": "PERPETUAL"
+    },
+    {
+      "symbol": "CASHCATUSDT",
+      "base": "CASHCAT",
+      "onboard": 1783505700000,
+      "onboard_bjt": "2026-07-08 18:15",
+      "tags": [
+        "Cash Cat"
+      ],
+      "type": "PERPETUAL"
+    },
+    {
+      "symbol": "YFIUSDT",
+      "base": "YFI",
+      "onboard": 1783368000000,
+      "onboard_bjt": "2026-07-07 04:00",
+      "tags": [
+        "yearn.finance"
+      ],
+      "type": "PERPETUAL"
+    },
+    {
+      "symbol": "VANRYUSDT",
+      "base": "VANRY",
+      "onboard": 1783311000000,
+      "onboard_bjt": "2026-07-06 12:10",
+      "tags": [
+        "Vanar"
+      ],
+      "type": "PERPETUAL"
+    },
+    {
+      "symbol": "MANAUSDT",
+      "base": "MANA",
+      "onboard": 1783176300000,
+      "onboard_bjt": "2026-07-04 22:45",
+      "tags": [
+        "Decentraland"
+      ],
+      "type": "PERPETUAL"
+    },
+    {
+      "symbol": "IDOLUSDT",
+      "base": "IDOL",
+      "onboard": 1783176300000,
+      "onboard_bjt": "2026-07-04 22:45",
+      "tags": [
+        "MEET48"
+      ],
+      "type": "PERPETUAL"
+    },
+    {
+      "symbol": "SLPUSDT",
+      "base": "SLP",
+      "onboard": 1782999000000,
+      "onboard_bjt": "2026-07-02 21:30",
+      "tags": [
+        "Smooth Love Potion"
+      ],
+      "type": "PERPETUAL"
+    },
+    {
+      "symbol": "TLMUSDT",
+      "base": "TLM",
+      "onboard": 1782999000000,
+      "onboard_bjt": "2026-07-02 21:30",
+      "tags": [
+        "Alien Worlds"
+      ],
+      "type": "PERPETUAL"
+    },
+    {
+      "symbol": "GRAMUSDT",
+      "base": "GRAM",
+      "onboard": 1782999000000,
+      "onboard_bjt": "2026-07-02 21:30",
+      "tags": [
+        "Gram"
+      ],
+      "type": "PERPETUAL"
+    },
+    {
+      "symbol": "TAIKOUSDT",
+      "base": "TAIKO",
+      "onboard": 1782912000000,
+      "onboard_bjt": "2026-07-01 21:20",
+      "tags": [],
+      "type": "PERPETUAL"
+    },
+    {
+      "symbol": "STRCUSDT",
+      "base": "STRC",
+      "onboard": 1782844200000,
+      "onboard_bjt": "2026-07-01 02:30",
+      "tags": [
+        "Strategy Prf Shs Series A"
+      ],
+      "type": 1
+    },
+    {
+      "symbol": "MANTAUSDT",
+      "base": "MANTA",
+      "onboard": 1782820800000,
+      "onboard_bjt": "2026-06-30 20:00",
+      "tags": [],
+      "type": "PERPETUAL"
+    },
+    {
+      "symbol": "TQQQUSDT",
+      "base": "TQQQ",
+      "onboard": 1782756000000,
+      "onboard_bjt": "2026-06-30 02:00",
+      "tags": [
+        "UltraPro QQQ"
+      ],
+      "type": 1
+    },
+    {
+      "symbol": "ANSEMUSDT",
+      "base": "ANSEM",
+      "onboard": 1782672300000,
+      "onboard_bjt": "2026-06-29 02:45",
+      "tags": [
+        "The Black Bull"
+      ],
+      "type": "PERPETUAL"
+    },
+    {
+      "symbol": "CAPUSDT",
+      "base": "CAP",
+      "onboard": 1782576300000,
+      "onboard_bjt": "2026-06-28 00:05",
+      "tags": [],
+      "type": "PERPETUAL"
+    },
+    {
+      "symbol": "KORUUSDT",
+      "base": "KORU",
+      "onboard": 1782489600000,
+      "onboard_bjt": "2026-06-27 00:00",
+      "tags": [
+        "South Korea Bull 3X"
+      ],
+      "type": 1
+    },
+    {
+      "symbol": "STXXUSDT",
+      "base": "STXX",
+      "onboard": 1782406800000,
+      "onboard_bjt": "2026-06-26 01:00",
+      "tags": [
+        "Seagate"
+      ],
+      "type": 1
+    },
+    {
+      "symbol": "EWZUSDT",
+      "base": "EWZ",
+      "onboard": 1782315000000,
+      "onboard_bjt": "2026-06-24 23:30",
+      "tags": [
+        "iShares MSCI Brazil ETF"
+      ],
+      "type": 1
+    },
+    {
+      "symbol": "XLEUSDT",
+      "base": "XLE",
+      "onboard": 1782315000000,
+      "onboard_bjt": "2026-06-24 23:30",
+      "tags": [
+        "Energy Select Sector"
+      ],
+      "type": 1
+    },
+    {
+      "symbol": "BMNRUSDT",
+      "base": "BMNR",
+      "onboard": 1782231300000,
+      "onboard_bjt": "2026-06-24 00:15",
+      "tags": [
+        "Bitmine Immersion"
+      ],
+      "type": 1
+    },
+    {
+      "symbol": "UVXYUSDT",
+      "base": "UVXY",
+      "onboard": 1782231300000,
+      "onboard_bjt": "2026-06-24 00:15",
+      "tags": [
+        "ProShares Ultra VIX"
+      ],
+      "type": 1
+    },
+    {
+      "symbol": "IDUSDT",
+      "base": "ID",
+      "onboard": 1782217800000,
+      "onboard_bjt": "2026-06-23 20:30",
+      "tags": [
+        "Space ID"
+      ],
+      "type": "PERPETUAL"
+    },
+    {
+      "symbol": "ADBEUSDT",
+      "base": "ADBE",
+      "onboard": 1782151200000,
+      "onboard_bjt": "2026-06-23 02:00",
+      "tags": [
+        "Adobe"
+      ],
+      "type": 1
+    },
+    {
+      "symbol": "HPEUSDT",
+      "base": "HPE",
+      "onboard": 1782151200000,
+      "onboard_bjt": "2026-06-23 02:00",
+      "tags": [
+        "Hewlett Packard Enterprise"
+      ],
+      "type": 1
+    },
+    {
+      "symbol": "SYNUSDT",
+      "base": "SYN",
+      "onboard": 1782146700000,
+      "onboard_bjt": "2026-06-23 00:45",
+      "tags": [
+        "Synapse"
+      ],
+      "type": "PERPETUAL"
+    },
+    {
+      "symbol": "ARXUSDT",
+      "base": "ARX",
+      "onboard": 1782146400000,
+      "onboard_bjt": "2026-06-23 00:40",
+      "tags": [
+        "Arcium"
+      ],
+      "type": "PERPETUAL"
+    },
+    {
+      "symbol": "ZHIPUUSDT",
+      "base": "ZHIPU",
+      "onboard": 1782109800000,
+      "onboard_bjt": "2026-06-22 14:30",
+      "tags": [
+        "Knowledge Atlas Tech"
+      ],
+      "type": 1
+    },
+    {
+      "symbol": "GLWUSDT",
+      "base": "GLW",
+      "onboard": 1781799300000,
+      "onboard_bjt": "2026-06-19 00:15",
+      "tags": [
+        "Corning Inc"
+      ],
+      "type": 1
+    },
+    {
+      "symbol": "REUSDT",
+      "base": "RE",
+      "onboard": 1781794800000,
+      "onboard_bjt": "2026-06-18 23:00",
+      "tags": [],
+      "type": "PERPETUAL"
+    },
+    {
+      "symbol": "EWJUSDT",
+      "base": "EWJ",
+      "onboard": 1781726100000,
+      "onboard_bjt": "2026-06-18 03:55",
+      "tags": [
+        "MSCI Japan"
+      ],
+      "type": 1
+    },
+    {
+      "symbol": "ASMLUSDT",
+      "base": "ASML",
+      "onboard": 1781726100000,
+      "onboard_bjt": "2026-06-18 03:55",
+      "tags": [
+        "ASML Holding"
+      ],
+      "type": 1
+    },
+    {
+      "symbol": "OUSDT",
+      "base": "O",
+      "onboard": 1781711100000,
+      "onboard_bjt": "2026-06-17 23:45",
+      "tags": [
+        "o1 exchange"
+      ],
+      "type": "PERPETUAL"
+    },
+    {
+      "symbol": "RIFUSDT",
+      "base": "RIF",
+      "onboard": 1781627400000,
+      "onboard_bjt": "2026-06-17 00:30",
+      "tags": [
+        "Rootstock Infrastructure"
+      ],
+      "type": "PERPETUAL"
+    },
+    {
+      "symbol": "IWMUSDT",
+      "base": "IWM",
+      "onboard": 1781627400000,
+      "onboard_bjt": "2026-06-17 00:30",
+      "tags": [
+        "Russell 2000"
+      ],
+      "type": 1
+    },
+    {
+      "symbol": "DKNGUSDT",
+      "base": "DKNG",
+      "onboard": 1781627400000,
+      "onboard_bjt": "2026-06-17 00:30",
+      "tags": [
+        "DraftKings"
+      ],
+      "type": 1
+    },
+    {
+      "symbol": "ZMUSDT",
+      "base": "ZM",
+      "onboard": 1781627400000,
+      "onboard_bjt": "2026-06-17 00:30",
+      "tags": [
+        "Zoom"
+      ],
+      "type": 1
+    },
+    {
+      "symbol": "RIVNUSDT",
+      "base": "RIVN",
+      "onboard": 1781533800000,
+      "onboard_bjt": "2026-06-15 22:30",
+      "tags": [
+        "Rivian Automotive"
+      ],
+      "type": 1
+    },
+    {
+      "symbol": "CRMUSDT",
+      "base": "CRM",
+      "onboard": 1781533800000,
+      "onboard_bjt": "2026-06-15 22:30",
+      "tags": [
+        "Salesforce"
+      ],
+      "type": 1
+    },
+    {
+      "symbol": "NFLXUSDT",
+      "base": "NFLX",
+      "onboard": 1781533800000,
+      "onboard_bjt": "2026-06-15 22:30",
+      "tags": [
+        "Netflix"
+      ],
+      "type": 1
+    },
+    {
+      "symbol": "COSTUSDT",
+      "base": "COST",
+      "onboard": 1781533800000,
+      "onboard_bjt": "2026-06-15 22:30",
+      "tags": [
+        "Costco"
+      ],
+      "type": 1
+    },
+    {
+      "symbol": "GMEUSDT",
+      "base": "GME",
+      "onboard": 1781533800000,
+      "onboard_bjt": "2026-06-15 22:30",
+      "tags": [
+        "GameStop Corp"
+      ],
+      "type": 1
+    },
+    {
+      "symbol": "RTXUSDT",
+      "base": "RTX",
+      "onboard": 1781524800000,
+      "onboard_bjt": "2026-06-15 20:00",
+      "tags": [
+        "RateX"
+      ],
+      "type": "PERPETUAL"
+    },
+    {
+      "symbol": "EBAYUSDT",
+      "base": "EBAY",
+      "onboard": 1781200800000,
+      "onboard_bjt": "2026-06-12 02:00",
+      "tags": [
+        "eBay"
+      ],
+      "type": 1
+    },
+    {
+      "symbol": "BXUSDT",
+      "base": "BX",
+      "onboard": 1781200800000,
+      "onboard_bjt": "2026-06-12 02:00",
+      "tags": [
+        "Blackstone"
+      ],
+      "type": 1
+    },
+    {
+      "symbol": "CRWDUSDT",
+      "base": "CRWD",
+      "onboard": 1781200800000,
+      "onboard_bjt": "2026-06-12 02:00",
+      "tags": [
+        "CrowdStrike"
+      ],
+      "type": 1
+    },
+    {
+      "symbol": "URNMUSDT",
+      "base": "URNM",
+      "onboard": 1781200800000,
+      "onboard_bjt": "2026-06-12 02:00",
+      "tags": [
+        "Sprott Uranium Miners"
+      ],
+      "type": 1
+    },
+    {
+      "symbol": "AMATUSDT",
+      "base": "AMAT",
+      "onboard": 1781200800000,
+      "onboard_bjt": "2026-06-12 02:00",
+      "tags": [
+        "Applied Materials"
+      ],
+      "type": 1
+    },
+    {
+      "symbol": "AXTIUSDT",
+      "base": "AXTI",
+      "onboard": 1781143200000,
+      "onboard_bjt": "2026-06-11 10:00",
+      "tags": [
+        "AXT Inc"
+      ],
+      "type": 1
+    },
+    {
+      "symbol": "AAOIUSDT",
+      "base": "AAOI",
+      "onboard": 1781114400000,
+      "onboard_bjt": "2026-06-11 02:00",
+      "tags": [
+        "Applied Optoelectronics Inc"
+      ],
+      "type": 1
+    },
+    {
+      "symbol": "HDUSDT",
+      "base": "HD",
+      "onboard": 1781114400000,
+      "onboard_bjt": "2026-06-11 02:00",
+      "tags": [
+        "Home Depot Inc"
+      ],
+      "type": 1
+    },
+    {
+      "symbol": "QCOMUSDT",
+      "base": "QCOM",
+      "onboard": 1781114400000,
+      "onboard_bjt": "2026-06-11 02:00",
+      "tags": [
+        "Qualcomm Inc"
+      ],
+      "type": 1
+    },
+    {
+      "symbol": "CRDOUSDT",
+      "base": "CRDO",
+      "onboard": 1781114400000,
+      "onboard_bjt": "2026-06-11 02:00",
+      "tags": [
+        "Credo Tech"
+      ],
+      "type": 1
+    },
+    {
+      "symbol": "WDCUSDT",
+      "base": "WDC",
+      "onboard": 1780938000000,
+      "onboard_bjt": "2026-06-09 01:00",
+      "tags": [
+        "Western Digital"
+      ],
+      "type": 1
+    },
+    {
+      "symbol": "LLYUSDT",
+      "base": "LLY",
+      "onboard": 1780938000000,
+      "onboard_bjt": "2026-06-09 01:00",
+      "tags": [
+        "Eli Lilly"
+      ],
+      "type": 1
+    },
+    {
+      "symbol": "NVOUSDT",
+      "base": "NVO",
+      "onboard": 1780938000000,
+      "onboard_bjt": "2026-06-09 01:00",
+      "tags": [
+        "Novo Nordisk"
+      ],
+      "type": 1
+    },
+    {
+      "symbol": "IRENUSDT",
+      "base": "IREN",
+      "onboard": 1780938000000,
+      "onboard_bjt": "2026-06-09 01:00",
+      "tags": [
+        "IREN Limited"
+      ],
+      "type": 1
+    },
+    {
+      "symbol": "ONDSUSDT",
+      "base": "ONDS",
+      "onboard": 1780938000000,
+      "onboard_bjt": "2026-06-09 01:00",
+      "tags": [
+        "Ondas"
+      ],
+      "type": 1
+    },
+    {
+      "symbol": "HYUNDAIUSDT",
+      "base": "HYUNDAI",
+      "onboard": 1780596000000,
+      "onboard_bjt": "2026-06-05 02:00",
+      "tags": [
+        "Hyundai"
+      ],
+      "type": 1
+    },
+    {
+      "symbol": "DELLUSDT",
+      "base": "DELL",
+      "onboard": 1780596000000,
+      "onboard_bjt": "2026-06-05 02:00",
+      "tags": [
+        "Dell Technologies Inc"
+      ],
+      "type": 1
+    },
+    {
+      "symbol": "IBMUSDT",
+      "base": "IBM",
+      "onboard": 1780596000000,
+      "onboard_bjt": "2026-06-05 02:00",
+      "tags": [
+        "IBM Common Stock"
+      ],
+      "type": 1
+    },
+    {
+      "symbol": "NOWUSDT",
+      "base": "NOW",
+      "onboard": 1780596000000,
+      "onboard_bjt": "2026-06-05 02:00",
+      "tags": [
+        "ServiceNow Inc"
+      ],
+      "type": 1
+    },
+    {
+      "symbol": "ANTHROPICUSDT",
+      "base": "ANTHROPIC",
+      "onboard": 1780596000000,
+      "onboard_bjt": "2026-06-05 02:00",
+      "tags": [
+        "Anthropic"
+      ],
+      "type": 1
+    },
+    {
+      "symbol": "SUSHIUSDT",
+      "base": "SUSHI",
+      "onboard": 1780520400000,
+      "onboard_bjt": "2026-06-04 05:00",
+      "tags": [
+        "Sushi"
+      ],
+      "type": "PERPETUAL"
+    },
+    {
+      "symbol": "EWTUSDT",
+      "base": "EWT",
+      "onboard": 1780421400000,
+      "onboard_bjt": "2026-06-03 01:30",
+      "tags": [
+        "Ishares Msci Taiwan ETF"
+      ],
+      "type": 1
+    },
+    {
+      "symbol": "ASTSUSDT",
+      "base": "ASTS",
+      "onboard": 1780421400000,
+      "onboard_bjt": "2026-06-03 01:30",
+      "tags": [
+        "AST SpaceMobile Inc"
+      ],
+      "type": 1
+    },
+    {
+      "symbol": "BBXUSDT",
+      "base": "BBX",
+      "onboard": 1780421400000,
+      "onboard_bjt": "2026-06-03 01:30",
+      "tags": [
+        "BlackBerry Ltd"
+      ],
+      "type": 1
+    },
+    {
+      "symbol": "NOKUSDT",
+      "base": "NOK",
+      "onboard": 1780421400000,
+      "onboard_bjt": "2026-06-03 01:30",
+      "tags": [
+        "Nokia Oyj"
+      ],
+      "type": 1
+    },
+    {
+      "symbol": "HIMSUSDT",
+      "base": "HIMS",
+      "onboard": 1780421400000,
+      "onboard_bjt": "2026-06-03 01:30",
+      "tags": [
+        "Hims & Hers Health Inc"
+      ],
+      "type": 1
+    }
+  ],
+  "smart_consensus": [
+    {
+      "_chain": "sol",
+      "_source": "gmgn",
+      "symbol": "ANSEM",
+      "name": "The Black Bull",
+      "address": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
+      "price": 0.16972,
+      "price_change_percent": 2.85651,
+      "price_change_percent1h": -1.19518,
+      "volume": 9192060,
+      "liquidity": 2224140,
+      "market_cap": 169710000,
+      "holder_count": 133075,
+      "smart_degen_count": 193,
+      "renowned_count": 107,
+      "top_10_holder_rate": 0.6304,
+      "dev_team_hold_rate": 0,
+      "rug_ratio": 0.276,
+      "twitter_create_token_count": 4548,
+      "bundler_rate": 0.8117,
+      "is_honeypot": 0,
+      "hot_level": 0,
+      "red_flags": "⚠️tw4548发 ⚠️bd81%"
+    },
+    {
+      "_chain": "sol",
+      "_source": "gmgn",
+      "symbol": "Jimothy",
+      "name": "Jimothy The Raccoon",
+      "address": "Ge87EtsjwRQbHaqQmKRno69RFTwh9bfSsm99XNxTpump",
+      "price": 0.0111481,
+      "price_change_percent": 50.2018,
+      "price_change_percent1h": -2.75066,
+      "volume": 14119100,
+      "liquidity": 614085,
+      "market_cap": 11197900,
+      "holder_count": 29896,
+      "smart_degen_count": 138,
+      "renowned_count": 44,
+      "top_10_holder_rate": 0.1107,
+      "dev_team_hold_rate": 9.4e-08,
+      "rug_ratio": 0.08,
+      "twitter_create_token_count": 42,
+      "bundler_rate": 0.4685,
+      "is_honeypot": 0,
+      "hot_level": 0,
+      "red_flags": "⚠️bd47%"
+    },
+    {
+      "_chain": "sol",
+      "_source": "gmgn",
+      "symbol": "CATE",
+      "name": "Catecoin",
+      "address": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+      "price": 0.00430855,
+      "price_change_percent": 18.2395,
+      "price_change_percent1h": -5.17842,
+      "volume": 4854680,
+      "liquidity": 492492,
+      "market_cap": 4180190,
+      "holder_count": 17582,
+      "smart_degen_count": 78,
+      "renowned_count": 20,
+      "top_10_holder_rate": 0.1386,
+      "dev_team_hold_rate": 0.0484987618,
+      "rug_ratio": 0.93,
+      "twitter_create_token_count": 40,
+      "bundler_rate": 0.5718,
+      "is_honeypot": 0,
+      "hot_level": 0,
+      "red_flags": "⚠️rug0.93 ⚠️bd57%"
+    },
+    {
+      "_chain": "sol",
+      "_source": "gmgn",
+      "symbol": "Fauci",
+      "name": "Dr. Death",
+      "address": "3VFnDoACa991DYe987w354sbvmhqjjzC4Z31SoZepump",
+      "price": 0.000453378,
+      "price_change_percent": 21224.6,
+      "price_change_percent1h": -10.4085,
+      "volume": 14837700,
+      "liquidity": 66393.1,
+      "market_cap": 440749,
+      "holder_count": 5554,
+      "smart_degen_count": 60,
+      "renowned_count": 21,
+      "top_10_holder_rate": 0.1371,
+      "dev_team_hold_rate": 0,
+      "rug_ratio": 0.01,
+      "twitter_create_token_count": 0,
+      "bundler_rate": 0.4316,
+      "is_honeypot": 0,
+      "hot_level": 2,
+      "red_flags": "⚠️bd43%"
+    },
+    {
+      "_chain": "bsc",
+      "_source": "gmgn",
+      "symbol": "HEYI",
+      "name": "The Final Form Cow",
+      "address": "0x4ce634563bb2f72961483357dc31b4c146a24444",
+      "price": 0.0011034,
+      "price_change_percent": 42.0166,
+      "price_change_percent1h": 1.48818,
+      "volume": 1799330,
+      "liquidity": 125806,
+      "market_cap": 1103400,
+      "holder_count": 26867,
+      "smart_degen_count": 57,
+      "renowned_count": 31,
+      "top_10_holder_rate": 0.6853,
+      "dev_team_hold_rate": 0,
+      "rug_ratio": 0,
+      "twitter_create_token_count": 3401,
+      "bundler_rate": 0.021,
+      "is_honeypot": 0,
+      "hot_level": 3,
+      "red_flags": "⚠️tw3401发"
+    },
+    {
+      "_chain": "sol",
+      "_source": "gmgn",
+      "symbol": "ChooChoo",
+      "name": "The Peptide Dog",
+      "address": "GB68eELgf864nrQHjNvrXHF6Xywpp1kYsb7fsGBupump",
+      "price": 0.000915823,
+      "price_change_percent": 39273.2,
+      "price_change_percent1h": 13.6507,
+      "volume": 6226630,
+      "liquidity": 90318.3,
+      "market_cap": 896517,
+      "holder_count": 3129,
+      "smart_degen_count": 53,
+      "renowned_count": 9,
+      "top_10_holder_rate": 0.1725,
+      "dev_team_hold_rate": 0,
+      "rug_ratio": 0.216,
+      "twitter_create_token_count": 0,
+      "bundler_rate": 0.3689,
+      "is_honeypot": 0,
+      "hot_level": 3,
+      "red_flags": "⚠️bd37%"
+    },
+    {
+      "_chain": "sol",
+      "_source": "gmgn",
+      "symbol": "Fraudci",
+      "name": "Antony Fraudci",
+      "address": "3DrBHMJ1rnWp7mMRNmNbWbp4zNiHkM483GqXSzRPpump",
+      "price": 0.00024146,
+      "price_change_percent": 10000.3,
+      "price_change_percent1h": -35.1607,
+      "volume": 6070630,
+      "liquidity": 43397.9,
+      "market_cap": 234947,
+      "holder_count": 2558,
+      "smart_degen_count": 46,
+      "renowned_count": 19,
+      "top_10_holder_rate": 0.195,
+      "dev_team_hold_rate": 0,
+      "rug_ratio": 0.03,
+      "twitter_create_token_count": 0,
+      "bundler_rate": 0.4353,
+      "is_honeypot": 0,
+      "hot_level": 2,
+      "red_flags": "⚠️bd44%"
+    },
+    {
+      "_chain": "base",
+      "_source": "gmgn",
+      "symbol": "KAITO",
+      "name": "KAITO",
+      "address": "0x98d0baa52b2d063e780de12f615f963fe8537553",
+      "price": 1.24438,
+      "price_change_percent": 1.19851,
+      "price_change_percent1h": -0.959079,
+      "volume": 85461.2,
+      "liquidity": 31932.4,
+      "market_cap": 1244380000,
+      "holder_count": 390764,
+      "smart_degen_count": 41,
+      "renowned_count": 158,
+      "top_10_holder_rate": 0.8944,
+      "dev_team_hold_rate": 0,
+      "rug_ratio": 0,
+      "twitter_create_token_count": 0,
+      "bundler_rate": 0,
+      "is_honeypot": 0,
+      "hot_level": 1,
+      "red_flags": "⚠️控89%"
+    }
+  ],
+  "retail_warning": [],
+  "business_track": [
+    {
+      "_chain": "base",
+      "_source": "gmgn",
+      "symbol": "KAITO",
+      "name": "KAITO",
+      "address": "0x98d0baa52b2d063e780de12f615f963fe8537553",
+      "price": 1.24438,
+      "price_change_percent": 1.19851,
+      "price_change_percent1h": -0.959079,
+      "volume": 85461.2,
+      "liquidity": 31932.4,
+      "market_cap": 1244380000,
+      "holder_count": 390764,
+      "smart_degen_count": 41,
+      "renowned_count": 158,
+      "top_10_holder_rate": 0.8944,
+      "dev_team_hold_rate": 0,
+      "rug_ratio": 0,
+      "twitter_create_token_count": 0,
+      "bundler_rate": 0,
+      "is_honeypot": 0,
+      "hot_level": 1,
+      "red_flags": "⚠️控89%"
+    },
+    {
+      "_chain": "sol",
+      "_source": "gmgn",
+      "symbol": "ANSEM",
+      "name": "The Black Bull",
+      "address": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
+      "price": 0.16972,
+      "price_change_percent": 2.85651,
+      "price_change_percent1h": -1.19518,
+      "volume": 9192060,
+      "liquidity": 2224140,
+      "market_cap": 169710000,
+      "holder_count": 133075,
+      "smart_degen_count": 193,
+      "renowned_count": 107,
+      "top_10_holder_rate": 0.6304,
+      "dev_team_hold_rate": 0,
+      "rug_ratio": 0.276,
+      "twitter_create_token_count": 4548,
+      "bundler_rate": 0.8117,
+      "is_honeypot": 0,
+      "hot_level": 0,
+      "red_flags": "⚠️tw4548发 ⚠️bd81%"
+    },
+    {
+      "_chain": "base",
+      "_source": "gmgn",
+      "symbol": "BRETT",
+      "name": "Brett",
+      "address": "0x532f27101965dd16442e59d40670faf5ebb142e4",
+      "price": 0.00394258,
+      "price_change_percent": -10.745,
+      "price_change_percent1h": -1.54499,
+      "volume": 638144,
+      "liquidity": 1144700,
+      "market_cap": 39425800,
+      "holder_count": 681984,
+      "smart_degen_count": 68,
+      "renowned_count": 25,
+      "top_10_holder_rate": 0.3322,
+      "dev_team_hold_rate": 0,
+      "rug_ratio": 0,
+      "twitter_create_token_count": 3,
+      "bundler_rate": 0,
+      "is_honeypot": 0,
+      "hot_level": 0
+    },
+    {
+      "_chain": "sol",
+      "_source": "gmgn",
+      "symbol": "Jimothy",
+      "name": "Jimothy The Raccoon",
+      "address": "Ge87EtsjwRQbHaqQmKRno69RFTwh9bfSsm99XNxTpump",
+      "price": 0.0111481,
+      "price_change_percent": 50.2018,
+      "price_change_percent1h": -2.75066,
+      "volume": 14119100,
+      "liquidity": 614085,
+      "market_cap": 11197900,
+      "holder_count": 29896,
+      "smart_degen_count": 138,
+      "renowned_count": 44,
+      "top_10_holder_rate": 0.1107,
+      "dev_team_hold_rate": 9.4e-08,
+      "rug_ratio": 0.08,
+      "twitter_create_token_count": 42,
+      "bundler_rate": 0.4685,
+      "is_honeypot": 0,
+      "hot_level": 0,
+      "red_flags": "⚠️bd47%"
+    }
+  ],
+  "counts": {
+    "comprehensive": 4,
+    "smart_consensus": 8,
+    "retail_warning": 0,
+    "business_track": 4
+  }
+}
